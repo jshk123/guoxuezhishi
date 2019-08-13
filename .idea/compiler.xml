@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guoxuezhishi-admin-common" />
+        <module name="guoxuezhishi-admin-mapper" />
+        <module name="guoxuezhishi-admin-mini-api" />
+        <module name="guoxuezhishi-admin-mng" />
+        <module name="guoxuezhishi-admin-pojo" />
+        <module name="guoxuezhishi-admin-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
