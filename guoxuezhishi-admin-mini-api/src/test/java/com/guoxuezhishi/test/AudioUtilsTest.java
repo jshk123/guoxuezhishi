@@ -7,7 +7,7 @@ import org.junit.Test;
  * @author: jiang
  * @date: 2019/7/29
  */
-public class TestAudioUtils {
+public class AudioUtilsTest {
     //测试播放音频
     @Test
     public void testPaly() throws Exception {

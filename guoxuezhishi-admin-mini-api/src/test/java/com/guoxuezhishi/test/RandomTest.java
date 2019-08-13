@@ -8,7 +8,7 @@ import java.security.SecureRandom;
  * @author: jiang
  * @date: 2019/7/30
  */
-public class TestRandom {
+public class RandomTest {
     @Test
     public void random() throws InterruptedException {
         String result = "";

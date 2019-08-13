@@ -7,7 +7,7 @@ import org.junit.Test;
  * @author: jiang
  * @date: 2019/7/30
  */
-public class TestJson {
+public class JsonTest {
     @Test
     public void json1() {
         String json = "{\n" +

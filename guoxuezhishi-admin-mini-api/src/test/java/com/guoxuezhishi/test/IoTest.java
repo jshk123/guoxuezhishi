@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
  * @author: jiang
  * @date: 2019/8/8
  */
-public class TestIo {
+public class IoTest {
     @Test
     public void testIo() throws FileNotFoundException {
         String rec = "hello world~";
