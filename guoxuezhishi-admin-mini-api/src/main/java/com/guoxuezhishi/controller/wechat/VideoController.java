@@ -5,6 +5,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,7 +24,7 @@ import java.io.InputStream;
 @RequestMapping("/video")
 public class VideoController extends BasicController {
 
-    @PostMapping("/upload")
+    @PostMapping(value = "/upload",headers = "content-type=multipart/form-data")
     @ApiOperation(value = "上传视频", notes = "上传视频的接口")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "String ", paramType = "query"),
@@ -35,7 +36,7 @@ public class VideoController extends BasicController {
     })
     public GXJSONResult upload(String userId, String bgmId, double videoSeconds,
                                int videoWidth, int vidioHeight, String desc,
-                               @RequestParam("file") MultipartFile files) throws Exception {
+                               @ApiParam() MultipartFile file) throws Exception {
         if (StringUtils.isBlank(userId)) {
             return GXJSONResult.errorMsg("用户ID不能为空！");
         }
@@ -45,10 +46,10 @@ public class VideoController extends BasicController {
         String fileSpase = "D:/guoxuezhishi";
         String uploadPathDB = "/" + userId + "/video";
         try {
-            if (files != null && files.getSize() > 0) {
-                String fileName = files.getOriginalFilename();
+            if (file != null && file.getSize() > 0) {
+                String fileName = file.getOriginalFilename();
                 if (StringUtils.isNotBlank(fileName)) {
-                    String finalVideoPath = fileName + uploadPathDB + "/" + fileName;
+                    String finalVideoPath = fileSpase + uploadPathDB + "/" + fileName;
                     uploadPathDB += ("/" + fileName);
 
                     File outfile = new File(finalVideoPath);
@@ -57,7 +58,7 @@ public class VideoController extends BasicController {
                     }
 
                     fileOutputStream = new FileOutputStream(outfile);
-                    inputStream = files.getInputStream();
+                    inputStream = file.getInputStream();
                     IOUtils.copy(inputStream, fileOutputStream);
                 }
             } else {

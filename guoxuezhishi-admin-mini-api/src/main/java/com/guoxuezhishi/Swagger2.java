@@ -26,7 +26,6 @@ public class Swagger2 {
      */
     @Bean
     public Docket createRestApi() {
-
         // 为swagger添加header参数可供输入
         ParameterBuilder userTokenHeader = new ParameterBuilder();
         ParameterBuilder userIdHeader = new ParameterBuilder();
@@ -39,7 +38,6 @@ public class Swagger2 {
                 .required(false).build();
         pars.add(userTokenHeader.build());
         pars.add(userIdHeader.build());
-
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
                 .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.wechat"))
                 .paths(PathSelectors.any()).build()
