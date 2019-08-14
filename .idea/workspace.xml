@@ -62,7 +62,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CommandController.java">
+      <file leaf-file-name="RemoteCommandUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/RemoteCommandUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="260">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -239,9 +239,9 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1038" />
+    <option name="x" value="949" />
+    <option name="width" value="981" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,6 +300,15 @@
               <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,51 +345,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baiduapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="h5chepaifu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiaohangyun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
@@ -646,7 +610,7 @@
       <workItem from="1565674913158" duration="3971000" />
       <workItem from="1565683079531" duration="3023000" />
       <workItem from="1565688781272" duration="65000" />
-      <workItem from="1565746079750" duration="5478000" />
+      <workItem from="1565746079750" duration="6259000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1565675298186</created>
@@ -712,7 +676,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311318000" />
+    <option name="totallyTimeSpent" value="312099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,6 +689,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003642" side_tool="true" weight="0.57004833" />
@@ -743,11 +708,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850242" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963585" weight="0.30273753" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.3268921" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.41418764" visible="true" weight="0.27312455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41418764" visible="true" weight="0.2993445" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3182504" />
       <window_info id="Web" order="3" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -863,13 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/RemoteCommandUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1230">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1158,6 +1116,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/RemoteCommandUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
