@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6d0ed21-ec1f-4ef9-a4d3-afe239bd8cd4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-common/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-mng/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-service/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/guoxuezhishi$TestIo_testIo.ic" NAME="TestIo.testIo Coverage Results" MODIFIED="1565229299213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guoxuezhishi.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guoxuezhishi$BaiDuApi.ic" NAME="BaiDuApi Coverage Results" MODIFIED="1564366255720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guoxuezhishi.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guoxuezhishi$JHtest.ic" NAME="JHtest Coverage Results" MODIFIED="1565255368399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guoxuezhishi.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guoxuezhishi$ShuZiTest_shuZi.ic" NAME="ShuZiTest.shuZi Coverage Results" MODIFIED="1564542030330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guoxuezhishi.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/guoxuezhishi$SparseArray.ic" NAME="SparseArray Coverage Results" MODIFIED="1565516291418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.guoxuezhishi.sparsearray.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="guoxuezhishi@192.145.37.100" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="guoxuezhishi" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="All" color="cce8cf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/VideoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CommandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>proxy</find>
+      <find>tradeInfo</find>
+      <find>CardInfo</find>
+      <find>/**</find>
+      <find>ICBC_SET_</find>
+      <find>(&quot;I0</find>
+      <find>bjfh.</find>
+      <find>/api/bjfh/</find>
+      <find>gender</find>
+      <find>bizContent</find>
+      <find>nationality</find>
+      <find>toxml</find>
+      <find>mapToXml</find>
+      <find>&lt;</find>
+      <find>imooc</find>
+      <find>BeanUtils</find>
+      <find>mp3</find>
+      <find>MD5Utils</find>
+      <find>base</find>
+      <find>64</find>
+      <find>00001</find>
+      <find>0000</find>
+      <find>111</find>
+      <find>app</find>
+      <find>执行结果为</find>
+      <find>BufferedOutputStream buff =null;</find>
+      <find>line</find>
+      <find>ApiImplicitParam</find>
+      <find>&lt;bean</find>
+      <find>ref</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>GX</replace>
+      <replace>user</replace>
+      <replace>com.guoxuezhishi.pojo</replace>
+      <replace>eAccountBO</replace>
+      <replace />
+      <replace>xxx</replace>
+      <replace>bjfh.</replace>
+      <replace>/</replace>
+      <replace>&lt;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\demo\guoxuezhishi</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/BaiDuApi/FaceRecController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/TestRandom.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/MapBeanTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-service/src/main/java/com/guoxuezhishi/service/BgmService.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mapper/src/main/java/com/guoxuezhishi/mapper/BgmMapper.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-service/src/main/java/com/guoxuezhishi/service/impl/BgmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/NumberFormatDemo.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/yunzhongxin/OrderPaySearchController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/wechat/Videos.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5SendSmsController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/PlateSendSmsCodeController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouQueryBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouUnSignBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5BindCardBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5GetContentBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5ChePaiFuBaseBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5AcpDaiShouQueryController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/PlateSendSmsCodeBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/PlateInfoQueryBO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/PlateInfoQueryController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/BgmController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Test.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/UserController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/TestDemo.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/TestIo.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JHtest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/SuanFaTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/sparsearray/SparseArray.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/queue/ArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/RemoteCommandUtil.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/RemoteCommandUtil.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/RemoteCommandController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/GsdpayCommandController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CgdgwCommandController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/GsdpayUrlController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/GsdpayCheckFileController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CloudCheckFileController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudCheckFileController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudQueryBalanceController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudModifyAccountController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/StringTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudOpenAccountController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/AudioUtilsTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/jiaohangyun/CloudTransferAccountDO.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountQueryController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CommandController.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/Swagger2.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/VideoController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guoxuezhishi-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guoxuezhishi-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="baiduapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="h5chepaifu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jiaohangyun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="cert" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="gxjson&#9;PSI&#9;JAVA://com.guoxuezhishi.utils.GXJSONResult" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15650742" />
+    <property name="project.structure.side.proportion" value="0.3359375" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiang\Desktop\guoxuezhishi\guoxuezhishi-admin-mini-api\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guoxuezhishi.controller.jiaohangyun" />
+      <recent name="com.guoxuezhishi.controller.ssh" />
+      <recent name="com.guoxuezhishi.utils" />
+      <recent name="com.guoxuezhishi.controller.wechat" />
+      <recent name="com.guoxuezhishi.controller.h5chepaifu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-mini-api\src\test\java\com\guoxuezhishi\test" />
+      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-mini-api\src\main\resources" />
+      <recent name="C:\Users\jiang\Desktop\guoxuezhishi\guoxuezhishi-admin-common\src\main\java\com\guoxuezhishi\utils" />
+      <recent name="C:\Users\jiang\Desktop\guoxuezhishi\guoxuezhishi-admin-common\libs" />
+      <recent name="C:\Users\jiang\Desktop\guoxuezhishi\guoxuezhishi-admin-pojo\src\main\java\com\guoxuezhishi\pojo\BjfhApi\RestApi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.queue.ArrayQueueDemo" />
+      <module name="guoxuezhishi-admin-mini-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GsdpayCommandController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.controller.ssh.GsdpayCommandController" />
+      <module name="guoxuezhishi-admin-mini-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.controller.ssh.GsdpayController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.sparsearray.SparseArray" />
+      <module name="guoxuezhishi-admin-mini-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.sparsearray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.StringTest" />
+      <module name="guoxuezhishi-admin-mini-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="guoxuezhishi-admin-mini-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guoxuezhishi.Application" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.SparseArray" />
+      <item itemvalue="Application.ArrayQueueDemo" />
+      <item itemvalue="Application.GsdpayCommandController" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.StringTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.GsdpayCommandController" />
+        <item itemvalue="Application.ArrayQueueDemo" />
+        <item itemvalue="Application.SparseArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jiang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6d0ed21-ec1f-4ef9-a4d3-afe239bd8cd4" name="Default" comment="" />
+      <created>1557994573656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557994573656</updated>
+      <workItem from="1557994575123" duration="3866000" />
+      <workItem from="1557998956728" duration="1059000" />
+      <workItem from="1558055456352" duration="2043000" />
+      <workItem from="1558062490132" duration="3065000" />
+      <workItem from="1558065603691" duration="2597000" />
+      <workItem from="1558072729886" duration="8633000" />
+      <workItem from="1558084576385" duration="506000" />
+      <workItem from="1558085115762" duration="401000" />
+      <workItem from="1558085542571" duration="806000" />
+      <workItem from="1558086379535" duration="247000" />
+      <workItem from="1558086653991" duration="635000" />
+      <workItem from="1558314001700" duration="9561000" />
+      <workItem from="1558364599758" duration="2403000" />
+      <workItem from="1558367054905" duration="1591000" />
+      <workItem from="1558423834204" duration="7427000" />
+      <workItem from="1558610116565" duration="337000" />
+      <workItem from="1561947795758" duration="1470000" />
+      <workItem from="1561949275377" duration="939000" />
+      <workItem from="1561950367976" duration="11120000" />
+      <workItem from="1562031428223" duration="7727000" />
+      <workItem from="1562051743241" duration="9202000" />
+      <workItem from="1562141312938" duration="455000" />
+      <workItem from="1562141808091" duration="3315000" />
+      <workItem from="1562145341746" duration="25798000" />
+      <workItem from="1562233814267" duration="15414000" />
+      <workItem from="1562511118590" duration="227000" />
+      <workItem from="1562511461281" duration="158000" />
+      <workItem from="1562547423943" duration="3896000" />
+      <workItem from="1562566695604" duration="274000" />
+      <workItem from="1562567037605" duration="13219000" />
+      <workItem from="1562634235143" duration="228000" />
+      <workItem from="1562634552386" duration="6337000" />
+      <workItem from="1562834344207" duration="3373000" />
+      <workItem from="1563178257720" duration="7704000" />
+      <workItem from="1563413386118" duration="5322000" />
+      <workItem from="1563435567929" duration="12140000" />
+      <workItem from="1563843671730" duration="29000" />
+      <workItem from="1563850230094" duration="16386000" />
+      <workItem from="1564016108132" duration="10494000" />
+      <workItem from="1564125670390" duration="4235000" />
+      <workItem from="1564362409127" duration="4937000" />
+      <workItem from="1564369402845" duration="1553000" />
+      <workItem from="1564393257179" duration="8615000" />
+      <workItem from="1564465436755" duration="2648000" />
+      <workItem from="1564473505536" duration="2283000" />
+      <workItem from="1564540055909" duration="1362000" />
+      <workItem from="1564556811817" duration="839000" />
+      <workItem from="1564646938378" duration="3299000" />
+      <workItem from="1564973641227" duration="453000" />
+      <workItem from="1564986813503" duration="4841000" />
+      <workItem from="1565001017632" duration="3321000" />
+      <workItem from="1565141982292" duration="1496000" />
+      <workItem from="1565145101106" duration="546000" />
+      <workItem from="1565156902976" duration="18081000" />
+      <workItem from="1565232853372" duration="690000" />
+      <workItem from="1565242919828" duration="1346000" />
+      <workItem from="1565253604499" duration="2495000" />
+      <workItem from="1565506673536" duration="13287000" />
+      <workItem from="1565571732359" duration="48000" />
+      <workItem from="1565588914878" duration="15026000" />
+      <workItem from="1565658571300" duration="1797000" />
+      <workItem from="1565663129677" duration="26000" />
+      <workItem from="1565664949741" duration="5153000" />
+      <workItem from="1565674913158" duration="3971000" />
+      <workItem from="1565683079531" duration="3023000" />
+      <workItem from="1565688781272" duration="65000" />
+      <workItem from="1565746079750" duration="4045000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1565675298186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565675298186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="类名修改">
+      <created>1565677798922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565677798922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新信息">
+      <created>1565746962422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565746962422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新信息">
+      <created>1565750264557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565750264557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestDemo_test1 - 2019.08.07 at 16h 09m 51s.xml">
+      <configuration name="TestDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 54m 31s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 55m 00s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 56m 39s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 57m 04s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 57m 20s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 57m 36s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 58m 20s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 58m 50s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIo_testIo - 2019.08.08 at 09h 59m 13s.xml">
+      <configuration name="TestIo.testIo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="309885000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1431" height="772" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003642" side_tool="true" weight="0.57004833" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.23160961" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32119447" />
+      <window_info id="Structure" order="1" sideWeight="0.58581233" side_tool="true" weight="0.27530953" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24836126" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58132046" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.44444445" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850242" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963585" weight="0.30273753" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3268921" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.41418764" visible="true" weight="0.27312455" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3182504" />
+      <window_info id="Web" order="3" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="2" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="307" height="572" id="Documentation" order="10" side_tool="true" weight="0.32993445" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.3401311" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6052202" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32730016" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963585" weight="0.6215781" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24836126" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32850242" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003642" side_tool="true" weight="0.57004833" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32206118" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24886878" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41223598" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55172414" visible="true" weight="0.41879097" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32483613" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.44827586" side_tool="true" weight="0.561086" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32993445" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2714055" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <MESSAGE value="类名修改" />
+    <MESSAGE value="更新信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/baiduapi/FaceRecController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/ch/ethz/ganymed/ganymed-ssh2/262/ganymed-ssh2-262.jar!/ch/ethz/ssh2/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/bjfhapi/BjfhUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/ch/ethz/ganymed/ganymed-ssh2/262/ganymed-ssh2-262.jar!/ch/ethz/ssh2/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JHtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/RemoteCommandUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/RemoteCommandUtil.java" />
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/bjfhapi/QueryAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/eaccount/EAccountCheckSmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/eaccount/EAccountRechargeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/GsdpayCommandController.java" />
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/baiduapi/SpeakRecController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/yunzhongxin/OrderPaySearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5GetContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CloudCheckFileController.java" />
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudCheckFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudQueryBalanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudModifyAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/baiduapi/SpeakTranController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudOpenAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/IoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/baidu/aip/java-sdk/4.11.3/java-sdk-4.11.3.jar!/com/baidu/aip/util/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/baidu/aip/java-sdk/4.11.3/java-sdk-4.11.3.jar!/com/baidu/aip/http/AipRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/baidu/aip/java-sdk/4.11.3/java-sdk-4.11.3.jar!/com/baidu/aip/http/AipHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1394">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/baidu/aip/java-sdk/4.11.3/java-sdk-4.11.3.jar!/com/baidu/aip/speech/AipSpeech.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="111" column="46" lean-forward="true" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/baiduapi/SpeakSynController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/AudioUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/jiaohangyun.java" />
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5AcpDaiShouUnSignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouQueryBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouUnSignBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5BindCardBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/PlateSendSmsCodeBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/PlateInfoQueryBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/jiaohangyun/CloudTransferAccountDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/bean/MerchantBeanProp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountQueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="90" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/resources/merchant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/resources/bjfhapi.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/resources/bdapi.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/CommandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23925781" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3359375" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>guoxuezhishi-admin-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3359375" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-beanutils:commons-beanutils:1.9.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3359375" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

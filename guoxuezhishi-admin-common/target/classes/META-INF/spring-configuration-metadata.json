@@ -1,0 +1,222 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd",
+      "type": "com.guoxuezhishi.bean.BdApiBeanProp"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh",
+      "type": "com.guoxuezhishi.bean.BjfhApiBeanProp"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk",
+      "type": "com.guoxuezhishi.bean.MerchantBeanProp"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.api-key-rlsb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.api-key-yysb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.app-id-rlsb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.app-id-yysb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.secret-key-rlsb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BdApiBeanProp",
+      "name": "bd.secret-key-yysb",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.acc-open",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.aes-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.apigw-publick-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.app-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.bind-card",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.check-code",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.code-check",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.code-send",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.corp-no",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.dep-money",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.fz-acc",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.my-private-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.proxy-ip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.proxy-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.qry-acc",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.qry-bind-list",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.qry-tra-info",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.send-code",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.service-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.un-bind",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.un-fz",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
+      "name": "bjfh.wd-money",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.charset",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.check-file-dir",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.merchant-cert-pass",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.merchant-cert-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.merchant-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.merchant-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.offline-notify-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.page-return-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.request-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.root-cert-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.sign-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
+      "name": "sdk.version",
+      "type": "java.lang.String"
+    }
+  ]
+}

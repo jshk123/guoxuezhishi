@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guoxuezhishi.mapper.CommentsMapper">
+  <resultMap id="BaseResultMap" type="com.guoxuezhishi.pojo.wechat.Comments">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="video_id" jdbcType="VARCHAR" property="videoId" />
+    <result column="from_user_id" jdbcType="VARCHAR" property="fromUserId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.guoxuezhishi.pojo.wechat.Comments">
+    <result column="comment" jdbcType="LONGVARCHAR" property="comment" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, video_id, from_user_id, create_time
+  </sql>
+  <sql id="Blob_Column_List">
+    `comment`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from comments
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from comments
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.guoxuezhishi.pojo.wechat.Comments" useGeneratedKeys="true">
+    insert into comments (video_id, from_user_id, create_time, 
+      `comment`)
+    values (#{videoId,jdbcType=VARCHAR}, #{fromUserId,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{comment,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.guoxuezhishi.pojo.wechat.Comments" useGeneratedKeys="true">
+    insert into comments
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="videoId != null">
+        video_id,
+      </if>
+      <if test="fromUserId != null">
+        from_user_id,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="comment != null">
+        `comment`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="videoId != null">
+        #{videoId,jdbcType=VARCHAR},
+      </if>
+      <if test="fromUserId != null">
+        #{fromUserId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="comment != null">
+        #{comment,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.guoxuezhishi.pojo.wechat.Comments">
+    update comments
+    <set>
+      <if test="videoId != null">
+        video_id = #{videoId,jdbcType=VARCHAR},
+      </if>
+      <if test="fromUserId != null">
+        from_user_id = #{fromUserId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="comment != null">
+        `comment` = #{comment,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.guoxuezhishi.pojo.wechat.Comments">
+    update comments
+    set video_id = #{videoId,jdbcType=VARCHAR},
+      from_user_id = #{fromUserId,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      `comment` = #{comment,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.guoxuezhishi.pojo.wechat.Comments">
+    update comments
+    set video_id = #{videoId,jdbcType=VARCHAR},
+      from_user_id = #{fromUserId,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>
