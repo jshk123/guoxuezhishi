@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date: 2019/8/5
  */
 @RestController
-@Api(value = "交通银行云账户修改处理", tags = "交通银行云账户修改处理")
+@Api(value = "交通银行云账户修改", tags = "交通银行云账户修改")
 public class CloudModifyAccountController {
     @PostMapping("/CloudModifyAccount")
     @ApiOperation(value = "CloudModifyAccount", notes = " CloudModifyAccount")

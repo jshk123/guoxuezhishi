@@ -10,7 +10,6 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -24,19 +23,19 @@ import java.io.InputStream;
 @RequestMapping("/video")
 public class VideoController extends BasicController {
 
-    @PostMapping(value = "/upload",headers = "content-type=multipart/form-data")
+    @PostMapping(value = "/upload", headers = "content-type=multipart/form-data")
     @ApiOperation(value = "上传视频", notes = "上传视频的接口")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "String ", paramType = "query"),
-            @ApiImplicitParam(name = "bgmId", value = "背景音乐ID", required = false, dataType = "String ", paramType = "query"),
-            @ApiImplicitParam(name = "videoSeconds", value = "视频播放长度", required = true, dataType = "String ", paramType = "query"),
-            @ApiImplicitParam(name = "videoWidth", value = "视频宽度", required = true, dataType = "String ", paramType = "query"),
-            @ApiImplicitParam(name = "vidioHeight", value = "视频高度", required = true, dataType = "String ", paramType = "query"),
-            @ApiImplicitParam(name = "desc", value = "视频描述", required = false, dataType = "String ", paramType = "query"),
+            @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "bgmId", value = "背景音乐ID", required = false, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "videoSeconds", value = "视频播放长度", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "videoWidth", value = "视频宽度", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "vidioHeight", value = "视频高度", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "desc", value = "视频描述", required = false, dataType = "String", paramType = "query"),
     })
     public GXJSONResult upload(String userId, String bgmId, double videoSeconds,
                                int videoWidth, int vidioHeight, String desc,
-                               @ApiParam() MultipartFile file) throws Exception {
+                               @ApiParam(value = "短视频", required = true) MultipartFile file) throws Exception {
         if (StringUtils.isBlank(userId)) {
             return GXJSONResult.errorMsg("用户ID不能为空！");
         }

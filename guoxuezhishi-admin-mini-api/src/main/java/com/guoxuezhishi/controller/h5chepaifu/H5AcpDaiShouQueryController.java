@@ -22,7 +22,7 @@ import java.util.Map;
 public class H5AcpDaiShouQueryController {
     @PostMapping("/H5AcpDaiShouQuery")
     @ApiOperation(value = "车牌付代付查询", notes = "车牌付代付查询")
-    public GXJSONResult h5AcpDaiShouQueryController(@RequestBody H5AcpDaiShouQueryBO h5AcpDaiShouQueryBO) {
+    public GXJSONResult h5AcpDaiShouQuery(@RequestBody H5AcpDaiShouQueryBO h5AcpDaiShouQueryBO) {
         Map<String, Object> map = new LinkedHashMap<String, Object>();
         map.put("charset", h5AcpDaiShouQueryBO.getCharset());
         map.put("version", h5AcpDaiShouQueryBO.getVersion());

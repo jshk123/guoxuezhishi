@@ -19,7 +19,7 @@ import sun.rmi.runtime.Log;
  * @date: 2019/8/5
  */
 @RestController
-@Api(value = "交通银行云账户开户处理", tags = "交通银行云账户开户处理")
+@Api(value = "交通银行云账户开户", tags = "交通银行云账户开户")
 public class CloudOpenAccountController {
     @Autowired
     private static Logger logger = Logger.getLogger(SpringBootApplication.class);

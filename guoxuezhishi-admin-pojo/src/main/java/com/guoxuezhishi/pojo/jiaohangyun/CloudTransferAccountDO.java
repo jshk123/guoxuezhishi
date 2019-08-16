@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiModelProperty;
  * @author: jiang
  * @date: 2019/8/13
  */
-@ApiModel(value = "交通银行云账户划拨处理", description = "交通银行云账户划拨处理")
+@ApiModel(value = "交通银行云账户划拨", description = "交通银行云账户划拨")
 public class CloudTransferAccountDO {
     @ApiModelProperty(value = "主账号", name = "主账号", example = "", required = true)
     private String acc;

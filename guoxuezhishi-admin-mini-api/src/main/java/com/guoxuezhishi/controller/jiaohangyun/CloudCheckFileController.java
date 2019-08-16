@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date: 2019/8/12
  */
 @RestController
-@Api(value = "交通银行云账户对账文件处理", tags = "交通银行云账户对账文件处理")
+@Api(value = "交通银行云账户对账文件", tags = "交通银行云账户对账文件")
 public class CloudCheckFileController {
     @PostMapping("/CloudCheckFile")
     @ApiOperation(value = "CloudCheckFile", notes = " CloudCheckFile")
