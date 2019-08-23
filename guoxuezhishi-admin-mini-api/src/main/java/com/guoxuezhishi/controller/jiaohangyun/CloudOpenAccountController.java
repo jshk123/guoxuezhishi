@@ -12,7 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sun.rmi.runtime.Log;
+
+import java.io.UnsupportedEncodingException;
 
 /**
  * @author: jiang
@@ -23,6 +24,7 @@ import sun.rmi.runtime.Log;
 public class CloudOpenAccountController {
     @Autowired
     private static Logger logger = Logger.getLogger(SpringBootApplication.class);
+
     @PostMapping("/CloudOpenAccount")
     @ApiOperation(value = "CloudOpenAccount", notes = " CloudOpenAccount")
     @ApiImplicitParams({
@@ -34,15 +36,17 @@ public class CloudOpenAccountController {
             ,
             @ApiImplicitParam(name = "super_acc", value = "上级云账号", defaultValue = "110060973018010061105", required = true, dataType = "String", paramType = "query")
     })
-    public GXJSONResult remoteCommand(String cloud_acc, String cloud_acc_name, String acc, String super_acc) {
-        StringBuffer reqUrl = new StringBuffer();
-        reqUrl.append("http://172.20.53.130:8280/sysmng/bpcspub3/cloudOpenAccount.do")
-                .append("?cloud_acc=").append(cloud_acc)
+    public GXJSONResult remoteCommand(String cloud_acc, String cloud_acc_name, String acc, String super_acc) throws UnsupportedEncodingException {
+        String reqUrl = "http://172.20.53.130:8280/sysmng/bpcspub3/cloudOpenAccount.do";
+        StringBuffer sb = new StringBuffer();
+        sb.append("cloud_acc=").append(cloud_acc)
                 .append("&cloud_acc_name=").append(cloud_acc_name)
                 .append("&acc=").append(acc)
                 .append("&super_acc=").append(super_acc);
-        logger.info("reqUrl:"+reqUrl.toString());
-        String response = HttpUtils.sendPost(reqUrl.toString(), "", "UTF-8");
+        String reqdata = String.valueOf(sb);
+        reqdata = new String(reqdata.getBytes("UTF-8"), "ISO-8859-1");
+        logger.info("reqdata: " + reqdata);
+        String response = HttpUtils.sendGet(reqUrl, reqdata);
         JSONObject rsponse = JSONObject.fromObject(response);
         return GXJSONResult.ok(rsponse);
     }

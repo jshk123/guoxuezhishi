@@ -106,9 +106,6 @@ public class AudioUtils {
     }
 
     /**
-     * 创建日期:2018年1月14日<br/>
-     * 创建时间:下午9:53:14<br/>
-     * 创建用户:yellowcong<br/>
      * 机能概要:获取文件的音频流
      *
      * @param mp3filepath
@@ -136,5 +133,12 @@ public class AudioUtils {
             e.printStackTrace();
         }
         return audioInputStream;
+    }
+
+    public static void main(String[] args) throws Exception {
+        String mp3filepath = "D:/KuGou/曲肖冰 - 刚好遇见你.mp3";
+        AudioUtils instance = AudioUtils.getInstance();
+        instance.playMP3(mp3filepath);
+
     }
 }
