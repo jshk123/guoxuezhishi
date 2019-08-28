@@ -56,9 +56,8 @@ public class ArrayQueueDemo {
                     break;
 
             }
-            System.out.println("程序退出");
-
         }
+        System.out.println("程序退出");
     }
 }
 

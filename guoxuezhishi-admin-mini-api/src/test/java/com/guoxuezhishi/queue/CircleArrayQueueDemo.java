@@ -5,13 +5,15 @@ import java.util.Scanner;
 /**
  * @author: jiang
  * @date: 2019/8/11
- * 数组模拟队列（不能复用）
+ * 环形队列，留一个预留空间
+ * 队列中有效个数： ( rear + maxSize - front) % maxSize
  */
 public class CircleArrayQueueDemo {
 
     public static void main(String[] args) {
         //创建队列对象
-        ArrayQueue arrayQueue = new ArrayQueue(3);
+        //设置4 , 表示队列的最大有效数据为3
+        CircleArray circleArray = new CircleArray(4);
         char key = ' ';//接收用户输入
         Scanner scanner = new Scanner(System.in);
         boolean loop = true;
@@ -25,16 +27,16 @@ public class CircleArrayQueueDemo {
             key = scanner.next().charAt(0);//接受一个字符
             switch (key) {
                 case 's':
-                    arrayQueue.showQueue();
+                    circleArray.showQueue();
                     break;
                 case 'a':
                     System.out.println("请输入一个数");
                     int value = scanner.nextInt();
-                    arrayQueue.addQueue(value);
+                    circleArray.addQueue(value);
                     break;
                 case 'g'://取出数据
                     try {
-                        int res = arrayQueue.getQueue();
+                        int res = circleArray.getQueue();
                         System.out.printf("取出的数据是%d\n", res);
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
@@ -42,7 +44,7 @@ public class CircleArrayQueueDemo {
                     break;
                 case 'h'://查看数据头
                     try {
-                        int res = arrayQueue.headQueue();
+                        int res = circleArray.headQueue();
                         System.out.printf("取出的头数据是%d\n", res);
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
@@ -56,9 +58,8 @@ public class CircleArrayQueueDemo {
                     break;
 
             }
-            System.out.println("程序退出");
-
         }
+        System.out.println("程序退出");
     }
 }
 
@@ -78,7 +79,7 @@ class CircleArray {
         arr = new int[maxSize];
     }
 
-    //判断队列是否满：(rear + 1) % maxSize = front
+    //判断队列是否满：(rear + 1) % maxSize == front
     public boolean isFull() {
         return (rear + 1) % maxSize == front;
     }
@@ -95,8 +96,11 @@ class CircleArray {
             System.out.println("队列满，不能加数据");
             return;
         }
-        rear++;//让rear后移
+        //添加数据
         arr[rear] = n;
+        //环形队列
+        //将rear后移，(rear + 1) % maxSize
+        rear = (rear + 1) % maxSize;
     }
 
     //获取队列数据
@@ -106,8 +110,13 @@ class CircleArray {
             //通过抛出异常处理
             throw new RuntimeException("队列为空，不能取出数据");
         }
-        front++;//front后移
-        return arr[front];
+        //这里的front 指向队列的第一个元素
+        //1. 先把front 对应的值保存到一个临时变量
+        //2. 将front 后移 考虑取模 (front + 1) % maxSize
+        //3. 将临时保存的变量返回
+        int value = arr[front];
+        front = (front + 1) % maxSize;
+        return value;
     }
 
     //显示队列的所有数据
@@ -117,9 +126,18 @@ class CircleArray {
             System.out.println("空队列，无数据");
             return;
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.printf("arr[%d]=%d\n", i, arr[i]);
+        //思路： 从front开始遍历，遍历多少个元素
+        // 下标为 i % maxSize
+        for (int i = front; i < front + size(); i++) {
+            System.out.printf("arr[%d]=%d\n", i % maxSize, arr[i % maxSize]);
         }
+    }
+
+    //求出当前队列有效个数
+    public int size() {
+        // rear = 0 front = 0  maxSize = 3 ---->0
+        // rear =0  front =1  maxSize = 3 ----->2
+        return (rear + maxSize - front) % maxSize;
     }
 
     //显示队列的头数据，不是取出数据
@@ -127,6 +145,6 @@ class CircleArray {
         if (isEmpty()) {
             throw new RuntimeException("队列空，无数据");
         }
-        return arr[front + 1];
+        return arr[front];
     }
 }

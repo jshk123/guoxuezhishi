@@ -1,7 +1,7 @@
 package com.guoxuezhishi.controller.yunzhongxin;
 
 import com.guoxuezhishi.bean.MerchantBeanProp;
-import com.guoxuezhishi.pojo.yunzhongxin.OrderPaySearchBO;
+import com.guoxuezhishi.pojo.yunzhongxin.PlatePayMethodQueryBO;
 import com.guoxuezhishi.utils.CPFUtil;
 import com.guoxuezhishi.utils.GXJSONResult;
 import io.swagger.annotations.Api;
@@ -18,35 +18,31 @@ import java.util.Map;
 
 /**
  * @author: jiang
- * @date: 2019/7/3
+ * @date: 2019/8/27
  */
 @RestController
-@Api(value = "车牌付查看订单结果", tags = {"车牌付查看订单结果"})
-public class OrderPaySearchController {
+@Api(value = "车牌付功能是否可用", tags = "车牌付功能是否可用")
+public class PlatePayMethodQueryController {
     @Autowired
     private MerchantBeanProp merchantBeanProp;
     @Autowired
     private CPFUtil cpfUtil;
 
-    @PostMapping("/OrderPaySearch")
-    @ApiOperation(value = "OrderPaySearch", notes = "OrderPaySearch")
-    public GXJSONResult eAccountOpen(@RequestBody OrderPaySearchBO orderPaySearchBO) throws IOException {
+    @PostMapping("/PlatePayMethodQuery")
+    @ApiOperation(value = "PlatePayMethodQuery", notes = "PlatePayMethodQuery")
+    public GXJSONResult platePayMethodQuery(@RequestBody PlatePayMethodQueryBO platePayMethodQueryBO) throws IOException {
         //签名
         Map<String, Object> map = new LinkedHashMap<String, Object>();
         map.put("charset", merchantBeanProp.getCharset());
         map.put("version", merchantBeanProp.getVersion());
         map.put("signType", merchantBeanProp.getSignType());
-        map.put("service", orderPaySearchBO.getService());
-        map.put("requestTime", String.valueOf(System.currentTimeMillis()));
+        map.put("service", platePayMethodQueryBO.getService());
         map.put("merchantId", merchantBeanProp.getMerchantId());
-        map.put("channelType", orderPaySearchBO.getChannelType());
-        map.put("txnType", orderPaySearchBO.getTxnType());
-        map.put("busType", orderPaySearchBO.getBusType());
-        map.put("orderNo", orderPaySearchBO.getOrderNo());
-        map.put("rmk", orderPaySearchBO.getRmk());
+        map.put("plateNo", platePayMethodQueryBO.getPlateNo());
+        map.put("plateColorCode", platePayMethodQueryBO.getPlateColorCode());
+        map.put("vehTypeCode", platePayMethodQueryBO.getVehTypeCode());
         String result = cpfUtil.postResult(map);
         JSONObject rspponse = JSONObject.fromObject(result);
         return GXJSONResult.ok(rspponse);
     }
-
 }
