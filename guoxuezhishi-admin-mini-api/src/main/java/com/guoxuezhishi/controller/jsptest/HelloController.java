@@ -1,4 +1,4 @@
-package com.guoxuezhishi.controller.test;
+package com.guoxuezhishi.controller.jsptest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
     @GetMapping("/index")
-    public String hello(Model model) {
+    public String index(Model model) {
         model.addAttribute("msg", "this is jsp!");
-        return "index";
+        return "index.jsp";
     }
+
 }

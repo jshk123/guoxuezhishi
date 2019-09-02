@@ -18,11 +18,19 @@
         </dependency>
         <!--本地包-->
         <dependency>
-            <groupId>edbtest</groupId>
-            <artifactId>edbtest</artifactId>
+            <groupId>edbtest.common</groupId>
+            <artifactId>edbtest.common</artifactId>
             <version>1.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/com.yuangou.ecp.bp.core.common-1.0.10.jar</systemPath>
+        </dependency>
+        <!--本地包-->
+        <dependency>
+            <groupId>edbtest.expr</groupId>
+            <artifactId>edbtest.expr</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/com.yuangou.ecp.bp.comp.expr-1.0.5.jar</systemPath>
         </dependency>
     </dependencies>
 

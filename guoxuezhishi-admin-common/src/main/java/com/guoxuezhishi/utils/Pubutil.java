@@ -106,7 +106,7 @@ public class Pubutil {
         map.put("appid", "wxd930ea5d5a258f4f");
         map.put("mch_id", "10000100");
         map.put("device_info", "1000");
-        map.put("body", "test");
+        map.put("body", "jsptest");
         map.put("nonce_str", "ibuaiVcKdpRxkhJA");
         String signTemp = formatUrlMap(map, false, false);
         System.out.println(signTemp);
