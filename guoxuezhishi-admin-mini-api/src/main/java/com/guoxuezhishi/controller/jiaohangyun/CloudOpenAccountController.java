@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 /**
  * @author: jiang
@@ -40,13 +41,23 @@ public class CloudOpenAccountController {
         String reqUrl = "http://172.20.53.130:8280/sysmng/bpcspub3/cloudOpenAccount.do";
         StringBuffer sb = new StringBuffer();
         sb.append("cloud_acc=").append(cloud_acc)
-                .append("&cloud_acc_name=").append(cloud_acc_name)
+                //对中文字符进行编码转换
+                .append("&cloud_acc_name=").append(URLEncoder.encode(cloud_acc_name,"GBK"))
                 .append("&acc=").append(acc)
                 .append("&super_acc=").append(super_acc);
         String reqdata = String.valueOf(sb);
-        reqdata = new String(reqdata.getBytes("UTF-8"), "ISO-8859-1");
         logger.info("reqdata: " + reqdata);
         String response = HttpUtils.sendGet(reqUrl, reqdata);
+
+/*        StringBuffer reqUrl = new StringBuffer();
+        reqUrl.append("http://172.20.53.130:8280/sysmng/bpcspub3/cloudOpenAccount.do")
+                .append("?cloud_acc=").append(cloud_acc)
+                //对中文字符进行编码转换
+                .append("&cloud_acc_name=").append(URLEncoder.encode(cloud_acc_name,"GBK"))
+                .append("&acc=").append(acc)
+                .append("&super_acc=").append(super_acc);
+        String response = HttpUtils.sendPost(reqUrl.toString(), "", "UTF-8");*/
+
         JSONObject rsponse = JSONObject.fromObject(response);
         return GXJSONResult.ok(rsponse);
     }

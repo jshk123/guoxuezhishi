@@ -32,6 +32,23 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/com.yuangou.ecp.bp.comp.expr-1.0.5.jar</systemPath>
         </dependency>
+        <!--本地包-->
+        <dependency>
+            <groupId>edbtest.dbutil</groupId>
+            <artifactId>edbtest.dbutil</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/com.yuangou.ecp.bp.core.dbutil-1.0.7.jar</systemPath>
+        </dependency>
+        <!--本地包-->
+        <dependency>
+            <groupId>edbtest.tools</groupId>
+            <artifactId>edbtest.tools</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/com.yuangou.ecp.bp.tools-1.0.1.jar</systemPath>
+        </dependency>
+
     </dependencies>
 
 

@@ -80,7 +80,7 @@ public class HttpUtils {
      */
     public static String sendGet(String url, String param) {
         String result = "";
-        BufferedReader in = null;
+        BufferedReader read = null;
         try {
             String urlName = url + "?" + param;
             URL realUrl = new URL(urlName);
@@ -99,9 +99,9 @@ public class HttpUtils {
                 System.out.println(key + "--->" + map.get(key));
             }
             //定义BufferedReader输入流来读取URL的响应
-            in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "GBK"));
+            read = new BufferedReader(new InputStreamReader(conn.getInputStream(), "GBK"));
             String line;
-            while ((line = in.readLine()) != null) {
+            while ((line = read.readLine()) != null) {
                 result += line;
             }
         } catch (Exception e) {
@@ -111,8 +111,8 @@ public class HttpUtils {
         //使用finally块来关闭输入流
         finally {
             try {
-                if (in != null) {
-                    in.close();
+                if (read != null) {
+                    read.close();
                 }
             } catch (IOException ex) {
                 ex.printStackTrace();

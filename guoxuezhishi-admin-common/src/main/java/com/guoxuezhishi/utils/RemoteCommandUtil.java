@@ -18,8 +18,8 @@ import java.io.UnsupportedEncodingException;
  * @date: 2019/8/12
  */
 public class RemoteCommandUtil {
-    private static Logger log = Logger.getLogger(SpringBootApplication.class);
-    private static String DEFAULTCHART = "GB2312";
+    private static Logger logger = Logger.getLogger(SpringBootApplication.class);
+    private static String DEFAULTCHART = "GBK";
 
     /**
      * 登陆linux
@@ -37,11 +37,11 @@ public class RemoteCommandUtil {
             conn.connect();
             flg = conn.authenticateWithPassword(userName, userPwd);
             if (flg) {
-                log.info("linux登陆成功");
+                logger.info("linux登陆成功");
                 return conn;
             }
         } catch (IOException e) {
-            log.info("linux登陆失败");
+            logger.info("linux登陆失败");
             e.printStackTrace();
         }
         return conn;
@@ -59,14 +59,14 @@ public class RemoteCommandUtil {
         try {
             if (conn != null) {
                 Session session = conn.openSession();//打开一个会话
-                session.execCommand(cmd);//执行命令
+                session.execCommand(cmd, DEFAULTCHART);//执行命令
                 result = processStdout(session.getStdout(), DEFAULTCHART);
                 //如果结果为空，则执行出错
                 if (StringUtils.isBlank(result)) {
-                    log.info("得到标准输出为空,链接conn:" + conn + ",执行的命令：" + cmd);
+                    logger.info("得到标准输出为空,链接conn:" + conn + ",执行的命令：" + cmd);
                     result = processStdout(session.getStderr(), DEFAULTCHART);
                 } else {
-                    log.info("执行命令成功,链接conn:" + conn + ",执行的命令：" + cmd);
+                    logger.info("执行命令成功,链接conn:" + conn + ",执行的命令：" + cmd + ",返回数据：" + result);
                 }
                 conn.close();
                 session.close();
@@ -96,11 +96,11 @@ public class RemoteCommandUtil {
                 buffer.append(line + "\n");
             }
         } catch (UnsupportedEncodingException e) {
-            log.info("解析脚本出错" + e.getMessage());
+            logger.info("解析脚本出错" + e.getMessage());
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-            log.info("解析脚本出错" + e.getMessage());
+            logger.info("解析脚本出错" + e.getMessage());
         }
         return buffer.toString();
     }

@@ -12,6 +12,11 @@
       "type": "com.guoxuezhishi.bean.BjfhApiBeanProp"
     },
     {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand",
+      "type": "com.guoxuezhishi.bean.SshBeanProp"
+    },
+    {
       "sourceType": "com.guoxuezhishi.bean.MerchantBeanProp",
       "name": "sdk",
       "type": "com.guoxuezhishi.bean.MerchantBeanProp"
@@ -156,6 +161,57 @@
     {
       "sourceType": "com.guoxuezhishi.bean.BjfhApiBeanProp",
       "name": "bjfh.wd-money",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.cgdgw",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.cgdgw123",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.cgdgwst",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.gsdpay",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.gsdpay123",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.gsdpayst",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "defaultValue": 0,
+      "name": "remotecommand.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.tingcheuatip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.zhifudevip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guoxuezhishi.bean.SshBeanProp",
+      "name": "remotecommand.zhifuuatip",
       "type": "java.lang.String"
     },
     {
