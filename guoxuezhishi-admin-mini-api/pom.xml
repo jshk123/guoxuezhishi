@@ -48,6 +48,14 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/com.yuangou.ecp.bp.tools-1.0.1.jar</systemPath>
         </dependency>
+        <!--本地包-->
+        <dependency>
+            <groupId>edbtest.smTools</groupId>
+            <artifactId>edbtest.smTools</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/smTools.jar</systemPath>
+        </dependency>
 
     </dependencies>
 

@@ -1,23 +1,18 @@
 package com.guoxuezhishi.pojo.yunzhongxin;
 
 import com.guoxuezhishi.pojo.BaseBO;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
  * @author: jiang
  * @date: 2019/7/3
  */
+@ApiModel(value = "车牌付查看订单结果",description = "车牌付查看订单结果")
 public class OrderPaySearchBO extends BaseBO {
-    @ApiModelProperty(value = "", name = "", example = "00", required = true)
-    private String charset;
-    @ApiModelProperty(value = "", name = "", example = "1.0", required = true)
-    private String version;
-    @ApiModelProperty(value = "", name = "", example = "RSA", required = true)
-    private String signType;
+
     @ApiModelProperty(value = "", name = "", example = "OrderPaySearch", required = true)
     private String service;
-    @ApiModelProperty(value = "", name = "", example = "20190703121212", required = true)
-    private String requestTime;
     @ApiModelProperty(value = "", name = "", example = "0", required = true)
     private String channelType;
     @ApiModelProperty(value = "", name = "", example = "02", required = true)
@@ -29,44 +24,12 @@ public class OrderPaySearchBO extends BaseBO {
     @ApiModelProperty(value = "", name = "", example = "支付结果查询", required = true)
     private String rmk;
 
-    public String getCharset() {
-        return charset;
-    }
-
-    public void setCharset(String charset) {
-        this.charset = charset;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public void setVersion(String version) {
-        this.version = version;
-    }
-
-    public String getSignType() {
-        return signType;
-    }
-
-    public void setSignType(String signType) {
-        this.signType = signType;
-    }
-
     public String getService() {
         return service;
     }
 
     public void setService(String service) {
         this.service = service;
-    }
-
-    public String getRequestTime() {
-        return requestTime;
-    }
-
-    public void setRequestTime(String requestTime) {
-        this.requestTime = requestTime;
     }
 
     public String getChannelType() {

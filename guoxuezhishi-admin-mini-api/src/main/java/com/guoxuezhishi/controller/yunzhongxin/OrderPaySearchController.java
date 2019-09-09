@@ -4,6 +4,7 @@ import com.guoxuezhishi.bean.MerchantBeanProp;
 import com.guoxuezhishi.pojo.yunzhongxin.OrderPaySearchBO;
 import com.guoxuezhishi.utils.CPFUtil;
 import com.guoxuezhishi.utils.GXJSONResult;
+import com.guoxuezhishi.utils.TimeUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import net.sf.json.JSONObject;
@@ -37,7 +38,7 @@ public class OrderPaySearchController {
         map.put("version", merchantBeanProp.getVersion());
         map.put("signType", merchantBeanProp.getSignType());
         map.put("service", orderPaySearchBO.getService());
-        map.put("requestTime", String.valueOf(System.currentTimeMillis()));
+        map.put("requestTime", TimeUtil.getdate());
         map.put("merchantId", merchantBeanProp.getMerchantId());
         map.put("channelType", orderPaySearchBO.getChannelType());
         map.put("txnType", orderPaySearchBO.getTxnType());

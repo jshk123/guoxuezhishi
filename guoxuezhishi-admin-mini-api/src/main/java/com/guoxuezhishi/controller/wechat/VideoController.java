@@ -26,12 +26,12 @@ public class VideoController extends BasicController {
     @PostMapping(value = "/upload", headers = "content-type=multipart/form-data")
     @ApiOperation(value = "上传视频", notes = "上传视频的接口")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "String", paramType = "query"),
-            @ApiImplicitParam(name = "bgmId", value = "背景音乐ID", required = false, dataType = "String", paramType = "query"),
-            @ApiImplicitParam(name = "videoSeconds", value = "视频播放长度", required = true, dataType = "String", paramType = "query"),
-            @ApiImplicitParam(name = "videoWidth", value = "视频宽度", required = true, dataType = "String", paramType = "query"),
-            @ApiImplicitParam(name = "vidioHeight", value = "视频高度", required = true, dataType = "String", paramType = "query"),
-            @ApiImplicitParam(name = "desc", value = "视频描述", required = false, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "userId", value = "用户ID", required = true, dataType = "String", paramType = "form"),
+            @ApiImplicitParam(name = "bgmId", value = "背景音乐ID", required = false, dataType = "String", paramType = "form"),
+            @ApiImplicitParam(name = "videoSeconds", value = "视频播放长度", required = true, dataType = "String", paramType = "form"),
+            @ApiImplicitParam(name = "videoWidth", value = "视频宽度", required = true, dataType = "String", paramType = "form"),
+            @ApiImplicitParam(name = "vidioHeight", value = "视频高度", required = true, dataType = "String", paramType = "form"),
+            @ApiImplicitParam(name = "desc", value = "视频描述", required = false, dataType = "String", paramType = "form"),
     })
     public GXJSONResult upload(String userId, String bgmId, double videoSeconds,
                                int videoWidth, int vidioHeight, String desc,

@@ -1,19 +1,15 @@
 package com.guoxuezhishi.pojo.yunzhongxin;
 
 import com.guoxuezhishi.pojo.BaseBO;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
  * @author: jiang
  * @date: 2019/8/27
  */
+@ApiModel(value = "云中心车牌发行状态查询",description = "云中心车牌发行状态查询")
 public class PlatePayInfoQueryBO extends BaseBO {
-    @ApiModelProperty(value = "", name = "", example = "00", required = true)
-    private String charset;
-    @ApiModelProperty(value = "", name = "", example = "1.0", required = true)
-    private String version;
-    @ApiModelProperty(value = "", name = "", example = "RSA", required = true)
-    private String signType;
     @ApiModelProperty(value = "", name = "", example = "PlatePayInfoQuery", required = true)
     private String service;
     @ApiModelProperty(value = "", name = "", example = "京NHA100", required = true)
@@ -26,30 +22,6 @@ public class PlatePayInfoQueryBO extends BaseBO {
     private String mblNo;
     @ApiModelProperty(value = "", name = "", example = "111111", required = true)
     private String checkNo;
-
-    public String getCharset() {
-        return charset;
-    }
-
-    public void setCharset(String charset) {
-        this.charset = charset;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public void setVersion(String version) {
-        this.version = version;
-    }
-
-    public String getSignType() {
-        return signType;
-    }
-
-    public void setSignType(String signType) {
-        this.signType = signType;
-    }
 
     public String getService() {
         return service;

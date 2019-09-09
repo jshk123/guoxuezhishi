@@ -117,6 +117,15 @@ public class Swagger2 {
     }
 
     @Bean
+    public Docket createRestApiGaoSu() {
+
+        return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
+                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.gaosuapi"))
+                .paths(PathSelectors.any()).build()
+                .groupName("高速收费");
+    }
+
+    @Bean
     public Docket createRestApiJssh() {
 
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
