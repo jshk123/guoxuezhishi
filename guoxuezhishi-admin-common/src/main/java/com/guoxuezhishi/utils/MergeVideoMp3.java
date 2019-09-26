@@ -1,4 +1,4 @@
-package com.guoxuezhishi.test;
+package com.guoxuezhishi.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,23 +11,29 @@ import java.util.List;
  * @author: jiang
  * @date: 2019/9/5
  */
-public class FFMpegTest {
+public class MergeVideoMp3 {
     private String ffmpegEXE;
 
-    public FFMpegTest(String ffmpegEXE) {
+    public MergeVideoMp3(String ffmpegEXE) {
         this.ffmpegEXE = ffmpegEXE;
     }
 
-    public void convertor(String videoInputPath, String videoOutputPath) throws IOException {
+    public void convertor(String videoInputPath,String mp3InputPath,double seconds, String videoOutputPath) throws IOException {
         List<String> command = new ArrayList<>();
         command.add(ffmpegEXE);
         command.add("-i");
         command.add(videoInputPath);
+        command.add("-i");
+        command.add(mp3InputPath);
+        command.add("-t");
+        command.add(String.valueOf(seconds));
+        command.add("-y");
         command.add(videoOutputPath);
         ProcessBuilder processBuilder = new ProcessBuilder(command);
         for (String i : command) {
             System.out.print(i + " ");
         }
+        System.out.println("");
         Process process = processBuilder.start();
         //处理错误流
         InputStream errorStream = process.getErrorStream();
@@ -50,9 +56,9 @@ public class FFMpegTest {
     }
 
     public static void main(String[] args) {
-        FFMpegTest ffmpeg = new FFMpegTest("D:\\ffmpeg\\bin\\ffmpeg.exe");
+        MergeVideoMp3 ffmpeg = new MergeVideoMp3("D:\\ffmpeg\\bin\\ffmpeg.exe");
         try {
-            ffmpeg.convertor("D:\\ffmpeg\\bin\\测试视频.mp4", "D:\\ffmpeg\\bin\\测试视频-output.avi");
+            ffmpeg.convertor("D:\\ffmpeg\\bin\\ceshi.mp4","D:\\ffmpeg\\bin\\bgm.mp3" ,16.01,"D:\\ffmpeg\\bin\\output.mp4");
         } catch (IOException e) {
             e.printStackTrace();
         }

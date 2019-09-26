@@ -49,7 +49,12 @@ public class EDBTest {
 //        last = YGExpUtil.calc_date(last, "-", "d", 3);
         last = YGExpUtil.calc_time(last, "+", "m", -10, "yyyyMMddHHmmss").substring(8);
         System.out.println("last:" + last);
+    }
 
+    @Test
+    public void timeTest() throws YGException {
+        String time = YGExpUtil.get_date_time("yyyy-MM-dd HH:mm:ss");
+        System.out.println(time);
     }
 
 }

@@ -75,12 +75,12 @@ public class HighWayCodePayController extends BaseController {
         map.put("authCode", authCode);
 
         // 报文签名
-        logger.info("加签原文" + map.toString());
+        logger.info("加签原文：" + map.toString());
 
         // 生成请求的加签原文
         String sourceData = createSignSource(map);
         map.put("version", version);
-        logger.info("加签原文串" + sourceData);
+        logger.info("加签原文串：" + sourceData);
         String signData = "";
         // 根据私钥信息、原始报文进行加签
         byte[] c = {};
@@ -94,14 +94,16 @@ public class HighWayCodePayController extends BaseController {
 
         // 将请求报文转为json
         JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(map));
-        logger.info("请求报文" + itemJSONObj.toString());
+        logger.info("请求报文：" + itemJSONObj.toString());
 
         // HTTP发送请求
         String rspString = HttpUtils.sendPost(reqUrl, itemJSONObj.toString(), "UTF-8");
-        logger.info("响应报文" + rspString);
+        logger.info("响应报文：" + rspString);
         JSONObject rspJSONObj = JSONObject.parseObject(rspString);
+        logger.info("rspJSONObj:" + rspJSONObj);
+
         // 响应报文进行验签
-        LinkedHashMap<String, String> rspMap = new LinkedHashMap<String, String>();
+        LinkedHashMap<String, Object> rspMap = new LinkedHashMap<String, Object>();
         rspMap.put("deviceNo", rspJSONObj.get("deviceNo").toString());
         rspMap.put("returnCode", rspJSONObj.get("returnCode").toString());
         rspMap.put("orderNo", rspJSONObj.get("orderNo").toString());
@@ -131,8 +133,9 @@ public class HighWayCodePayController extends BaseController {
                 logger.info("验签成功");
             }
         }*/
-        JSONObject rspSponse = JSONObject.parseObject(String.valueOf(rspMap));
-        return GXJSONResult.ok(rspSponse);
+        JSONObject rspSponse = new JSONObject(rspMap);
+        logger.info("rspSponse:" + rspSponse);
+        return GXJSONResult.ok(rspJSONObj);
     }
 
     private String createSignSource(LinkedHashMap<String, String> sourceMap) {

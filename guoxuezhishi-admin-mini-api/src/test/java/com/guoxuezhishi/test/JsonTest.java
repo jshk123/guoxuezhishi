@@ -10,20 +10,7 @@ import org.junit.Test;
 public class JsonTest {
     @Test
     public void json1() {
-        String json = "{\n" +
-                "  \"status\": 200,\n" +
-                "  \"msg\": \"OK\",\n" +
-                "  \"data\": {\n" +
-                "    \"result\": [\n" +
-                "      \"你好，百度个大傻逼。\"\n" +
-                "    ],\n" +
-                "    \"err_msg\": \"success.\",\n" +
-                "    \"sn\": \"619932647281564450435\",\n" +
-                "    \"corpus_no\": \"6719263455781308090\",\n" +
-                "    \"err_no\": 0\n" +
-                "  },\n" +
-                "  \"ok\": null\n" +
-                "}";
+        String json = "";
         System.out.println(json);
         JSONObject json2 = JSONObject.parseObject(json);
         System.out.println(json2);

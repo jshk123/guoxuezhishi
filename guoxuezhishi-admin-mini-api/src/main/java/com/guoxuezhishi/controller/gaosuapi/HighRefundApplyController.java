@@ -56,7 +56,7 @@ public class HighRefundApplyController extends BaseController {
         map.put("refundOrderNo", TimeUtil.getdate());
         map.put("refundDesc", "退款测试");
         map.put("rmk", "退款测试");
-        logger.info("加签原文" + sourceData);
+        logger.info("加签原文：" + sourceData);
 
         String signData = "";
         // 根据私钥信息、原始报文进行加签
@@ -71,14 +71,14 @@ public class HighRefundApplyController extends BaseController {
 
         //将请求报文转为json
         JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(map));
-        logger.info("请求报文" + itemJSONObj.toString());
+        logger.info("请求报文：" + itemJSONObj.toString());
 
         //HTTP发送请求
         String rspString = HttpUtils.sendPost(reqUrl, itemJSONObj.toString(), "UTF-8");
-        logger.info("响应报文" + rspString);
+        logger.info("响应报文：" + rspString);
         JSONObject rspJSONObj = JSONObject.parseObject(rspString);
         //响应报文进行验签
-        LinkedHashMap<String, String> rspMap = new LinkedHashMap<String, String>();
+        LinkedHashMap<String, Object> rspMap = new LinkedHashMap<String, Object>();
         rspMap.put("deviceNo", rspJSONObj.get("deviceNo").toString());
         rspMap.put("returnCode", rspJSONObj.get("returnCode").toString());
         rspMap.put("orderNo", rspJSONObj.get("orderNo").toString());
@@ -86,29 +86,31 @@ public class HighRefundApplyController extends BaseController {
             rspMap.put("finishTime", rspJSONObj.get("finishTime").toString());
         }
 
-        String sercerMac = rspJSONObj.get("serverMac").toString();
-        logger.info("响应验签报文" + rspMap.toString());
-        //组装响应验签签名串原文
-        String rspSignData = createSignSource(rspMap);
-        rspMap.put("version", rspJSONObj.get("version").toString());
-        rspMap.put("refundOrderNo", rspJSONObj.get("refundOrderNo").toString());
-        logger.info("响应加签原文" + rspSignData);
-
-        //调用SM2方法进行公钥验签
-        boolean verifyFlag = false;
-        try {
-            verifyFlag = SM2Utils.verifySign(mercId.getBytes(), Util.hexToByte(platPublicKey), rspSignData.getBytes(),
-                    Util.hexToByte(sercerMac));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        if (!verifyFlag) {
-            logger.info("验签失败");
-        } else {
-            logger.info("验签成功");
-        }
-        JSONObject rspSponse = JSONObject.parseObject(String.valueOf(rspMap));
-        return GXJSONResult.ok(rspSponse);
+        /*if (!rspJSONObj.get("version").toString().equals("1.0")) {
+            String sercerMac = rspJSONObj.get("serverMac").toString();
+            logger.info("响应验签报文：" + rspMap.toString());
+            //组装响应验签签名串原文
+            String rspSignData = createSignSource(rspMap);
+            rspMap.put("version", rspJSONObj.get("version").toString());
+            rspMap.put("refundOrderNo", rspJSONObj.get("refundOrderNo").toString());
+            logger.info("响应加签原文：" + rspSignData);
+            //调用SM2方法进行公钥验签
+            boolean verifyFlag = false;
+            try {
+                verifyFlag = SM2Utils.verifySign(mercId.getBytes(), Util.hexToByte(platPublicKey), rspSignData.getBytes(),
+                        Util.hexToByte(sercerMac));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (!verifyFlag) {
+                logger.info("验签失败");
+            } else {
+                logger.info("验签成功");
+            }
+        }*/
+        JSONObject rspSponse = new JSONObject(rspMap);
+        logger.info("rspSponse:" + rspSponse);
+        return GXJSONResult.ok(rspJSONObj);
     }
 
     private String createSignSource(LinkedHashMap<String, String> sourceMap) {

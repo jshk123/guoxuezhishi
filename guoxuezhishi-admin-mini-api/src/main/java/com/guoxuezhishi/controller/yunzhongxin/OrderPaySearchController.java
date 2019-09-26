@@ -45,7 +45,7 @@ public class OrderPaySearchController {
         map.put("busType", orderPaySearchBO.getBusType());
         map.put("orderNo", orderPaySearchBO.getOrderNo());
         map.put("rmk", orderPaySearchBO.getRmk());
-        String result = cpfUtil.postResult(map);
+        String result = cpfUtil.postResult(map,orderPaySearchBO.getReqCPFUrl());
         JSONObject rspponse = JSONObject.fromObject(result);
         return GXJSONResult.ok(rspponse);
     }

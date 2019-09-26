@@ -54,7 +54,8 @@ public class LicensePlatePayController extends BaseController {
         for (Map.Entry<String, Object> key : map.entrySet()) {
             logger.info(key.getKey() + " : " + key.getValue());
         }
-        String result = cpfUtil.postResult(map);
+
+        String result = cpfUtil.postResult(map,licensePlatePayBO.getReqCPFUrl());
         JSONObject rspponse = JSONObject.fromObject(result);
         return GXJSONResult.ok(rspponse);
     }

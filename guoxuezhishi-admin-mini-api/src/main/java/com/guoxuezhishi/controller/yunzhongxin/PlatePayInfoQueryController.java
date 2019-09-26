@@ -43,7 +43,7 @@ public class PlatePayInfoQueryController {
         map.put("vehTypeCode", platePayInfoQueryBO.getVehTypeCode());
         map.put("mblNo", platePayInfoQueryBO.getMblNo());
         map.put("checkNo", platePayInfoQueryBO.getCheckNo());
-        String result = cpfUtil.postResult(map);
+        String result = cpfUtil.postResult(map,platePayInfoQueryBO.getReqCPFUrl());
         JSONObject rspponse = JSONObject.fromObject(result);
         return GXJSONResult.ok(rspponse);
     }

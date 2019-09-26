@@ -58,7 +58,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
                 .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.lstchepaifu"))
                 .paths(PathSelectors.any()).build()
-                .groupName("乐速通车牌付");
+                .groupName("LST车牌付");
     }
 
     @Bean
@@ -129,9 +129,9 @@ public class Swagger2 {
     public Docket createRestApiJssh() {
 
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.ssh"))
+                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.gongjulei"))
                 .paths(PathSelectors.any()).build()
-                .groupName("Linux控制台");
+                .groupName("小工具");
     }
 
     /**

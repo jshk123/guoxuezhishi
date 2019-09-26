@@ -1,5 +1,7 @@
 package com.guoxuezhishi.controller.wechat;
 
+import com.guoxuezhishi.pojo.wechat.Bgm;
+import com.guoxuezhishi.service.BgmService;
 import com.guoxuezhishi.utils.GXJSONResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -8,6 +10,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +25,11 @@ import java.io.InputStream;
 @Api(value = "视频相关业务接口", tags = "视频相关业务接口")
 @RequestMapping("/video")
 public class VideoController extends BasicController {
+    @Autowired
+    private BgmService bgmService;
+
+//    @Autowired
+//    private VideoService videoService;
 
     @PostMapping(value = "/upload", headers = "content-type=multipart/form-data")
     @ApiOperation(value = "上传视频", notes = "上传视频的接口")
@@ -71,7 +79,18 @@ public class VideoController extends BasicController {
                 fileOutputStream.flush();
                 fileOutputStream.close();
             }
-            return GXJSONResult.ok();
         }
+
+        //判断bgmId是否为空，如果不为空
+        //就查询bgm的信息，并且合并视频，产生新的视频
+//        if (StringUtils.isNotBlank(bgmId)) {
+//        }
+
+
+
+
+
+
+        return GXJSONResult.ok();
     }
 }

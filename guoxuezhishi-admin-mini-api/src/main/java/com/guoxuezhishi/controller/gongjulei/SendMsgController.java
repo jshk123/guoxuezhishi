@@ -1,4 +1,4 @@
-package com.guoxuezhishi.controller.ssh;
+package com.guoxuezhishi.controller.gongjulei;
 
 import ch.ethz.ssh2.Connection;
 import com.guoxuezhishi.bean.SshBeanProp;
@@ -26,7 +26,7 @@ public class SendMsgController {
     @Autowired
     private SshBeanProp sshBeanProp;
 
-    @PostMapping("SendMsg")
+    @PostMapping("/SendMsg")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "ip", value = "ip", defaultValue = "dev", required = true, dataType = "String"),
             @ApiImplicitParam(name = "cmd", value = "cmd", defaultValue = "cloud_acc=11111&cloud_acc_name=发票推送停车场(修改)&acc=3333&super_acc=4444", required = true, dataType = "String")

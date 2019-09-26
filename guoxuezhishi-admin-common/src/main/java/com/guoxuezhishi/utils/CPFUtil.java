@@ -26,7 +26,7 @@ public class CPFUtil {
     /**
      * H5加签认证
      */
-    public String postResult(Map<String, Object> reqMap) throws IOException {
+    public String postResult(Map<String, Object> reqMap,String reqUrl) throws IOException {
         //去除空值
         if (reqMap != null && !reqMap.isEmpty()) {
             for (Map.Entry<String, Object> entry : reqMap.entrySet()) {
@@ -54,7 +54,7 @@ public class CPFUtil {
         String merchantCerPath = locationPath + merchantBeanProp.getMerchantCertPath() + merCert;
         logger.info("merchantCerPath:" + merchantCerPath);
         String merchantCertPass = merchantBeanProp.getMerchantCertPass();
-        String requestUrl = merchantBeanProp.getRequestUrl();
+        String requestUrl = reqUrl+"/mrpos/stmpay";
         //加签
         RSASignUtil util = new RSASignUtil(merchantCerPath, merchantCertPass);
         String reqData = RSASignUtil.coverMap2String(reqMap);
