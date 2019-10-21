@@ -1,5 +1,6 @@
 package com.guoxuezhishi.controller.lstchepaifu;
 
+import com.guoxuezhishi.controller.BaseController;
 import com.guoxuezhishi.pojo.lstchepaifu.SdkGetMblFromUserSystemBO;
 import com.guoxuezhishi.utils.GXJSONResult;
 import com.guoxuezhishi.utils.HttpUtils;
@@ -22,9 +23,7 @@ import java.util.Map;
  */
 @RestController
 @Api(value = "获取用户手机号", tags = {"获取用户手机号"})
-public class SdkGetMblFromUserSystemController {
-    @Autowired
-    private static Logger logger = Logger.getLogger(SpringBootApplication.class);
+public class SdkGetMblFromUserSystemController extends BaseController {
 
     @PostMapping("/SdkGetMblFromUserSystem")
     @ApiOperation(value = "获取用户手机号", notes = "获取用户手机号")

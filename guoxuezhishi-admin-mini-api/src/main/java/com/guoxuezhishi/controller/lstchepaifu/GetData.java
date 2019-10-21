@@ -12,6 +12,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @author: jiang
  * @date: 2019/8/15
+ * 获取数据
  */
 public class GetData {
 

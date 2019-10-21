@@ -25,4 +25,13 @@ public class ShuZiTest {
         int n = 4;
         System.out.println("binary2=" + Integer.toBinaryString(n));
     }
+
+    @Test
+    public void shuzi3() {
+        int a = -100;
+        int b = 100;
+        System.out.println(a + b);
+    }
+
+
 }

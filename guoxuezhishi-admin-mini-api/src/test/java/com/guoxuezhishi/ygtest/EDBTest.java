@@ -54,7 +54,8 @@ public class EDBTest {
     @Test
     public void timeTest() throws YGException {
         String time = YGExpUtil.get_date_time("yyyy-MM-dd HH:mm:ss");
-        System.out.println(time);
+        System.out.println(YGExpUtil.get_date());
+        System.out.println(YGExpUtil.get_date_time().substring(8, 14));
     }
 
 }

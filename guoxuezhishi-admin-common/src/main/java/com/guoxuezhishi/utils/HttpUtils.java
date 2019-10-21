@@ -43,6 +43,7 @@ public class HttpUtils {
             // 获取URLConnection对象对应的输出流
             out = new OutputStreamWriter(conn.getOutputStream(), unicode);
             // 发送请求参数
+            System.out.println("out.param:" + param);
             out.write(param);
             // flush输出流的缓冲
             out.flush();
