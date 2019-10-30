@@ -1,50 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6d0ed21-ec1f-4ef9-a4d3-afe239bd8cd4" name="Default" comment="更新信息">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/lstchepaifu/SdkGetContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/chi_sim.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/api_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/digits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/hocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/eng.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/osd.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/pdf.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/pdf.ttx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ImgUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YunsuanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/chi_sim.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/api_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/digits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/hocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/eng.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/osd.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/pdf.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/pdf.ttx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/chi_sim.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/api_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/digits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/hocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/eng.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/osd.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/pdf.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/pdf.ttx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/lstchepaifu/SdkGetContentBO.java" afterDir="false" />
+    <list default="true" id="a6d0ed21-ec1f-4ef9-a4d3-afe239bd8cd4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/SnakePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/DanlimoshiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/chi_sim.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/api_config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/digits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/hocr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/eng.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/osd.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/pdf.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/pdf.ttx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/HttpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/lstchepaifu/GetData.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/lstchepaifu/GetData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/lstchepaifu/SdkGetMblFromUserSystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/lstchepaifu/SdkGetMblFromUserSystemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/ygtest/EDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/ygtest/EDBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/Swagger2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/ShuZiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/ShuZiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/BaseBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/BaseBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/BaseBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/BaseBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/bdapi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/bjfhapi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/bean/BdApiBeanProp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/bean/BjfhApiBeanProp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/bean/MerchantBeanProp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/AudioUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/CAP12CertTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/CPFUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/GXJSONResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/HexStringByte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/HttpSendResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/HttpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/ImageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/MerchantUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/MyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/Protocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/Pubutil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/Pubutil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/RSASignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/RedisOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/RemoteCommandUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/SignedPack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/SimpleHttpsClient$SimpleHttpsSocketFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/SimpleHttpsClient$SimpleHttpsSocketFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/com/guoxuezhishi/utils/SimpleHttpsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-common/target/classes/merchant.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/BgmMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/CommentsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/SearchRecordsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/UsersFansMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/UsersLikeVideosMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/UsersReportMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/com/guoxuezhishi/mapper/VideosMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/BgmMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/CommentsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/SearchRecordsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/UsersFansMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/UsersLikeVideosMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/UsersReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/VideosMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/chi_sim.traineddata" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/chi_sim.traineddata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/api_config" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/api_config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/digits" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/digits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/configs/hocr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/configs/hocr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/eng.traineddata" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/eng.traineddata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/osd.traineddata" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/osd.traineddata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/pdf.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/pdf.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/tessdata/pdf.ttx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tessdata/pdf.ttx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ImgUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yanzhengma/ImgUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JHtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JiaoHangTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yanzhengma/Tess4J.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yanzhengma/YanZhengMaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/chi_sim.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/api_config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/digits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/configs/hocr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/eng.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/osd.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/pdf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/tessdata/pdf.ttx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/chi_sim.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/api_config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/digits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/configs/hocr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/eng.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/osd.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/pdf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/tessdata/pdf.ttx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/8k.pcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/cert/888022044110010.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/cert/rootca.cer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/baiduapi/FaceRecController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/baiduapi/SpeakRecController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/baiduapi/SpeakSynController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/baiduapi/SpeakTranController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/bjfhapi/BjfhUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/bjfhapi/OpenAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/bjfhapi/QueryAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountCheckSmsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountOpenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountQueryCardListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountQueryIsOpenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountQueryOrderListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountRechargeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/eaccount/EAccountWithdrawController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/H5AcpDaiShouQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/H5AcpDaiShouUnSignController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/H5BindCardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/H5GetContentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/PlateInfoQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/h5chepaifu/PlateSendSmsCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudCheckFileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudModifyAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudOpenAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudQueryBalanceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/jiaohangyun/CloudTransferAccountQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wechat/BasicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wechat/BgmController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wechat/RegistLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wechat/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wechat/VideoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/wxfenzhang/ProfitSharingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/com/guoxuezhishi/controller/yunzhongxin/OrderPaySearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/queue/ArrayQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/sparsearray/SparseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/AudioUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/IoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/JHtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/JsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/MapBeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/NumberFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/RandomTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/ShuZiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/test-classes/com/guoxuezhishi/test/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/BaseBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/OpenAccountBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/QueryAccountBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/restapi/BjfhApiRestApiRequest$BjfhApiRestApiRequestBiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/restapi/BjfhApiRestApiRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/restapi/BjfhApiRestApiResponse$CardInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/restapi/BjfhApiRestApiResponse$TradeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/bjfhapi/restapi/BjfhApiRestApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountBaseBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountCheckBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountOpenBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountQueryCardListBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountQueryIsOpenBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountQueryOrderListBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountRechargeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/eaccount/EAccountWithdrawBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouQueryBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/H5AcpDaiShouUnSignBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/H5BindCardBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/H5ChePaiFuBaseBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/H5GetContentBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/PlateInfoQueryBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/h5chepaifu/PlateSendSmsCodeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/jiaohangyun/CloudTransferAccountDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/vo/UsersVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/Bgm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/SearchRecords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/UsersFans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/UsersLikeVideos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/UsersReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wechat/Videos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wxfenzhang/ProfitSharingBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/wxfenzhang/WXFenZhangBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-pojo/target/classes/com/guoxuezhishi/pojo/yunzhongxin/OrderPaySearchBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/target/classes/com/guoxuezhishi/service/BgmService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/target/classes/com/guoxuezhishi/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/target/classes/com/guoxuezhishi/service/impl/BgmServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/target/classes/com/guoxuezhishi/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-common/target/" />
@@ -104,14 +248,40 @@
     <fileColor scope="All" color="cce8cf" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ShuZiTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Snake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="263">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnakePanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/SnakePanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YanZhengMaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yanzhengma/YanZhengMaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hocr" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tessdata/configs/hocr">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -131,12 +301,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>YGDatabaseUtil</find>
-      <find>logger</find>
-      <find>ApiImplicitParam</find>
-      <find>charsetName</find>
-      <find>openSession</find>
-      <find>character</find>
       <find>map.entrySet</find>
       <find>system.get</find>
       <find>currentTimeMillis</find>
@@ -161,6 +325,12 @@
       <find>com</find>
       <find>logba</find>
       <find>订单查询</find>
+      <find>反射</find>
+      <find>888022044110010</find>
+      <find>merchantId</find>
+      <find>merchantBeanProp</find>
+      <find>MerchantCertPath</find>
+      <find>));</find>
     </findStrings>
     <replaceStrings>
       <replace>GX</replace>
@@ -183,6 +353,7 @@
       <replace>this.whila</replace>
       <replace>logger.info</replace>
       <replace>&quot;0---&gt;&quot;+secureRandom.nextInt</replace>
+      <replace>);</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\demo\guoxuezhishi</dir>
@@ -195,16 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/ssh/SendMsgController.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/jiaohangyun/CloudOpenAccountController.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/TimeUtil.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/yunzhongxin/LicensePlatePayBO.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/yunzhongxin/OrderPaySearchBO.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/yunzhongxin/PlatePayInfoQueryBO.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/yunzhongxin/PlatePayMethodQueryBO.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/yunzhongxin/PlatePaySendSmsCodeBO.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/SM4Utils.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/bean/GaoSuApiBeanProp.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/resources/gaosuapi.properties" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/gaosuapi/HighRefundApplyBO.java" />
@@ -244,8 +405,18 @@
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YunsuanTest.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/DanlimoshiTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JiaoHangtest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JiaoHangTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/StringTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/Snake.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/SnakePanel.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ImgUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YanZhengMaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanzhengma/Tess4J.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanzhengma/YanZhengMaTest.java" />
       </list>
     </option>
   </component>
@@ -306,10 +477,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="350" />
-    <option name="width" value="1658" />
-    <option name="height" value="546" />
+    <option name="x" value="429" />
+    <option name="y" value="29" />
+    <option name="width" value="1231" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -317,6 +488,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -328,25 +500,17 @@
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -354,32 +518,22 @@
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yanzhengma" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -399,8 +553,8 @@
     <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/Java仿抖音短视频小程序开发 全栈式实战项目/小程序实战 - 课程代码 20180530 完整版/小程序后端【完结】/imooc-videos-dev" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.16129032" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16517495" />
     <property name="project.structure.side.proportion" value="0.3359375" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -408,25 +562,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\demo\guoxuezhishi\src\main\java" />
-      <recent name="D:\demo\guoxuezhishi\src\main" />
+      <recent name="D:\demo\guoxuezhishi\src\main\java\com" />
       <recent name="D:\demo\guoxuezhishi\src" />
+      <recent name="D:\demo\guoxuezhishi\src\main\java" />
       <recent name="D:\demo\guoxuezhishi" />
-      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-mini-api\src\test\java\com\guoxuezhishi\test" />
+      <recent name="D:\demo\guoxuezhishi\src\pic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generator" />
       <recent name="com.guoxuezhishi.test" />
       <recent name="com.guoxuezhishi.utils" />
       <recent name="com.guoxuezhishi.controller.lstchepaifu" />
       <recent name="com.guoxuezhishi.pojo" />
-      <recent name="com.guoxuezhishi.controller.jiaohangyun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-mini-api" />
+      <recent name="D:\demo\guoxuezhishi\src\main\java" />
+      <recent name="D:\demo\guoxuezhishi\src\main\resources" />
+      <recent name="D:\demo\guoxuezhishi\src\main" />
       <recent name="D:\demo\guoxuezhishi" />
-      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-common\src\main\resources" />
-      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-common\src\main" />
-      <recent name="D:\demo\guoxuezhishi\guoxuezhishi-admin-mini-api\src\main\java" />
+      <recent name="D:\demo\guoxuezhishi\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,14 +595,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShuZiTest.shuzi3">
-    <configuration name="YanZhengMaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.YanZhengMaTest" />
+  <component name="RunManager" selected="Application.YanZhengMaTest">
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.game.Snake" />
       <module name="guoxuezhishi-admin-mini-api" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
+          <option name="PATTERN" value="com.guoxuezhishi.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="YanZhengMaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yanzhengma.YanZhengMaTest" />
+      <module name="guoxuezhishi-admin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yanzhengma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,7 +621,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ShuZiTest.shuZi2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guoxuezhishi-admin-mini-api" />
       <extension name="coverage">
         <pattern>
@@ -467,54 +632,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.ShuZiTest" />
-      <option name="METHOD_NAME" value="shuZi2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ShuZiTest.shuzi3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guoxuezhishi-admin-mini-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.ShuZiTest" />
-      <option name="METHOD_NAME" value="shuzi3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="YunsuanTest.yuyunsuan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guoxuezhishi-admin-mini-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.YunsuanTest" />
-      <option name="METHOD_NAME" value="yuyunsuan" />
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.StringTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,19 +757,17 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
+      <item itemvalue="Application.Snake" />
+      <item itemvalue="JUnit.StringTest.test1" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.YanZhengMaTest" />
-      <item itemvalue="JUnit.YunsuanTest.yuyunsuan" />
-      <item itemvalue="JUnit.ShuZiTest.shuZi2" />
-      <item itemvalue="JUnit.ShuZiTest.shuzi3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShuZiTest.shuzi3" />
-        <item itemvalue="JUnit.ShuZiTest.shuZi2" />
-        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.YanZhengMaTest" />
-        <item itemvalue="JUnit.YunsuanTest.yuyunsuan" />
+        <item itemvalue="Application.Snake" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.StringTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -783,6 +900,12 @@
       <workItem from="1571366448394" duration="1561000" />
       <workItem from="1571369978357" duration="135000" />
       <workItem from="1571376759416" duration="6091000" />
+      <workItem from="1571624789402" duration="1842000" />
+      <workItem from="1571811359311" duration="6044000" />
+      <workItem from="1572225195747" duration="414000" />
+      <workItem from="1572225973170" duration="1904000" />
+      <workItem from="1572320668327" duration="3675000" />
+      <workItem from="1572415760761" duration="5189000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1565675298186</created>
@@ -868,25 +991,17 @@
       <option name="project" value="LOCAL" />
       <updated>1569479686323</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更新信息">
+      <created>1571624836486</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571624836487</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RandomTest_random - 2019.09.20 at 10h 45m 16s.xml">
-      <configuration name="RandomTest.random" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomTest_random - 2019.09.20 at 10h 45m 53s.xml">
-      <configuration name="RandomTest.random" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EDBTest_timeTest - 2019.10.12 at 14h 38m 12s.xml">
-      <configuration name="EDBTest.timeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EDBTest_timeTest - 2019.10.12 at 14h 39m 01s.xml">
-      <configuration name="EDBTest.timeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YunsuanTest_yuyunsuan - 2019.10.17 at 18h 40m 14s.xml">
-      <configuration name="YunsuanTest.yuyunsuan" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YunsuanTest_yuyunsuan - 2019.10.17 at 18h 40m 34s.xml">
       <configuration name="YunsuanTest.yuyunsuan" configurationId="JUnit" />
     </history-entry>
@@ -902,9 +1017,24 @@
     <history-entry file="ShuZiTest_shuzi3 - 2019.10.18 at 14h 43m 58s.xml">
       <configuration name="ShuZiTest.shuzi3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringTest_test1 - 2019.10.24 at 14h 11m 59s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test1 - 2019.10.24 at 14h 12m 19s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test1 - 2019.10.24 at 14h 12m 37s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test1 - 2019.10.24 at 14h 18m 47s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringTest_test1 - 2019.10.24 at 14h 19m 38s.xml">
+      <configuration name="StringTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="570330000" />
+    <option name="totallyTimeSpent" value="589398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -917,7 +1047,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003642" side_tool="true" weight="0.57004833" />
@@ -929,7 +1058,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5915721" side_tool="true" weight="0.5479042" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24836126" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39613527" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.34460548" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.46698874" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -937,13 +1066,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3279483" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49963585" weight="0.3510467" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49963585" weight="0.31239936" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="16" weight="0.3268921" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40842786" visible="true" weight="0.3175528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40842786" visible="true" weight="0.26584122" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.3175528" />
       <window_info id="Web" order="3" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.6038647" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.59903383" />
       <window_info id="JavaEE:App" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="2" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
@@ -1018,7 +1147,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1029,154 +1158,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Library.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5520">
-          <caret line="293" selection-start-line="293" selection-end-line="293" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/ygtest/EDBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/4.4.1/tess4j-4.4.1.jar!/net/sourceforge/tess4j/ITesseract.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/4.4.1/tess4j-4.4.1.jar!/net/sourceforge/tess4j/Tesseract.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="322" selection-start-line="322" selection-end-line="322" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Library.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5520">
-          <caret line="293" selection-start-line="293" selection-end-line="293" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/lib/jbosssx.jar!/org/jboss/resource/security/SecureIdentityLoginModule.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="93" column="46" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JbossLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/ygtest/TimeTest.java" />
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/yunzhongxin/OrderPaySearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/RandomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="110" selection-start-line="110" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/BaseAppBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/lstchepaifu/SdkGetContentBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/lstchepaifu/SdkGetMblFromUserSystemBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/h5chepaifu/H5GetContentBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5GetContentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1324,16 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/UnicodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1355,17 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml">
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShellTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1373,12 +1333,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java">
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/JiaoHangTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/DanlimoshiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/ShuZiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/pic/title.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/resources/merchant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/pic/title.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/target/classes/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="157" column="36" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="36" />
+          <folding>
+            <element signature="e#5677#5678#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
+            <element signature="e#6701#6702#0" expanded="true" />
+            <element signature="e#6758#6759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/title.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tessdata/configs/hocr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/Tess4J.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trc/04/SKMSG.trc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configs/hocr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tessdata/configs/hocr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/YanZhengMaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanzhengma/ImgUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanzhengma/Tess4J.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/game/SnakePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tessdata/configs/hocr">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanzhengma/YanZhengMaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tessdata/configs/hocr">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1434,11 +1540,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>guoxuezhishi-admin-pojo</last-edited>
+          <last-edited>guoxuezhishi-admin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3359375" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
