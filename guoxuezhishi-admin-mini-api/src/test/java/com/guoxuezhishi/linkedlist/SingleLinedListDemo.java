@@ -40,7 +40,12 @@ public class SingleLinedListDemo {
         //显示链表
         System.out.println("修改后的链表：");
         singleLinkedList.list();
-
+        //删除一个节点
+        singleLinkedList.del(1);
+        singleLinkedList.del(3);
+        //显示链表
+        System.out.println("删除后的链表：");
+        singleLinkedList.list();
     }
 
 }
@@ -138,6 +143,35 @@ class SingleLinkedList {
             System.out.printf("没有找到编号%d的节点，不能修改\n", newHeroNode.no);
         }
 
+    }
+
+    //删除节点
+    //1、head不能动，因此需要一个temp辅助节点找到待删除节点的前一个节点
+    //2.比较时，temp.next.no和需要删除的节点no进行比较
+    public void del(int no) {
+        HeroNode temp = head;
+        //标志是否找到待删除节点的前一个节点
+        boolean flag = false;
+        while (true) {
+            if (temp.next == null) {
+                //已经到链表的最后
+                break;
+            }
+            if (temp.next.no == no) {
+                //找到待删除节点的前一个节点
+                flag = true;
+                break;
+            }
+            //temp后移，继续遍历
+            temp = temp.next;
+        }
+        //判断是否找到
+        if (flag) {
+            //删除
+            temp.next = temp.next.next;
+        } else {
+            System.out.println("要删除的%d节点不存在\n" + no);
+        }
     }
 
     //显示英雄链表---遍历

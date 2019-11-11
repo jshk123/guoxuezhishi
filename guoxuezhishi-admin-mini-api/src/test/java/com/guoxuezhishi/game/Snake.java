@@ -1,6 +1,7 @@
 package com.guoxuezhishi.game;
 
 import javax.swing.*;
+import java.net.URL;
 
 /**
  * @author: jiang
@@ -8,6 +9,8 @@ import javax.swing.*;
  */
 public class Snake {
     public static void main(String[] args) {
+        System.out.println(Snake.class.getResource(""));
+        System.out.println(Snake.class.getResource("/"));
         JFrame frame = new JFrame();
 //      框体大小
         frame.setBounds(400, 200, 900, 720);
