@@ -39,7 +39,20 @@ public class RobotTest {
             robot.delay(2000);
         }
     }
-
+    @Test
+    //滑动鼠标
+    public void testHua() throws AWTException {
+        Robot robot = new Robot();
+        robot.delay(3000);
+        for (int i = 0; i < 2; i++) {
+            robot.mouseMove(1800, 1046);
+            robot.delay(200);
+            robot.mousePress(KeyEvent.BUTTON1_MASK);
+            robot.delay(200);
+            robot.mouseRelease(KeyEvent.BUTTON1_MASK);
+            robot.delay(2000);
+        }
+    }
     @Test
     //获取图像属性，及鼠标坐标
     public void test3() throws AWTException {
