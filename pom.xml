@@ -16,14 +16,6 @@
         <module>guoxuezhishi-admin-service</module>
         <module>guoxuezhishi-admin-mini-api</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>net.sourceforge.tess4j</groupId>
-            <artifactId>tess4j</artifactId>
-            <version>4.4.1</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -37,6 +29,26 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <!-- 验证码图像识别 -->
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+    <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>4.4.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>log4j-over-slf4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>logback-classic</artifactId>
+                    <groupId>ch.qos.logback</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
 
 
     <build>

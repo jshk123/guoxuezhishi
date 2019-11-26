@@ -1,0 +1,22 @@
+{
+  "100001": {
+    "xingming": "小红",
+    "shuxue": 22,
+    "yuwen": 88
+  },
+  "100002": {
+    "xingming": "小名",
+    "shuxue": 56,
+    "yuwen": 42
+  },
+  "100003": {
+    "xingming": "小刚",
+    "shuxue": 78,
+    "yuwen": 78
+  },
+  "100004": {
+    "xingming": "小李",
+    "shuxue": 69,
+    "yuwen": 95
+  }
+}
