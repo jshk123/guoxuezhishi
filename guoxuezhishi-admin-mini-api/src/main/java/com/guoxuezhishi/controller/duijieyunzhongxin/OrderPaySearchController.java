@@ -1,7 +1,7 @@
-package com.guoxuezhishi.controller.yunzhongxin;
+package com.guoxuezhishi.controller.duijieyunzhongxin;
 
 import com.guoxuezhishi.bean.MerchantBeanProp;
-import com.guoxuezhishi.pojo.yunzhongxin.OrderPaySearchBO;
+import com.guoxuezhishi.pojo.duijieyunzhongxin.OrderPaySearchBO;
 import com.guoxuezhishi.utils.CPFUtil;
 import com.guoxuezhishi.utils.GXJSONResult;
 import com.guoxuezhishi.utils.TimeUtil;

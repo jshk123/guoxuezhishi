@@ -11,14 +11,16 @@ import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @author: jiang
  * @date: 2019/7/4
  */
 @Component
-public class CPFUtil {
+public class YZXUtil {
     @Autowired
     private static Logger logger = Logger.getLogger(SpringBootApplication.class);
 
@@ -28,7 +30,7 @@ public class CPFUtil {
     /**
      * H5加签认证
      */
-    public String postResult(Map<String, Object> reqMap,String reqUrl) throws IOException {
+    public String postResult(Map<String, Object> reqMap, String reqUrl) throws IOException {
         //去除空值
         Map<String, Object> reqMapTmp = new HashMap();
         reqMapTmp.putAll(reqMap);
@@ -55,12 +57,12 @@ public class CPFUtil {
         }
         //加签准备
         String locationPath = ResourceUtils.getURL("classpath:").getPath();
-        String merchantId = merchantBeanProp.getMerchantId();
+        String merchantId = merchantBeanProp.getMerchantIdYun();
         String merCert = merchantId + ".p12";
-        String merchantCerPath = locationPath + merchantBeanProp.getMerchantCertPath() + merCert;
+        String merchantCerPath = locationPath + merchantBeanProp.getMerchantCertPathYun() + merCert;
         logger.info("merchantCerPath:" + merchantCerPath);
-        String merchantCertPass = merchantBeanProp.getMerchantCertPass();
-        String requestUrl = reqUrl+"/mrpos/stmpay";
+        String merchantCertPass = merchantBeanProp.getMerchantCertPassYun();
+        String requestUrl = reqUrl + "/pacc/cashier";
         //加签
         RSASignUtil util = new RSASignUtil(merchantCerPath, merchantCertPass);
         String reqData = RSASignUtil.coverMap2String(reqMap);

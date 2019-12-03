@@ -62,10 +62,19 @@ public class Swagger2 {
     }
 
     @Bean
-    public Docket createRestApiChePaiFu() {
+    public Docket createRestApiDuiJieYunZhonXin() {
 
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.yunzhongxin"))
+                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.duijieyunzhongxin"))
+                .paths(PathSelectors.any()).build()
+                .groupName("对接云中心");
+    }
+
+    @Bean
+    public Docket createRestApiYunZhonXinXiangGuan() {
+
+        return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
+                .apis(RequestHandlerSelectors.basePackage("com.guoxuezhishi.controller.yunzhongxinxiangguan"))
                 .paths(PathSelectors.any()).build()
                 .groupName("云中心相关");
     }

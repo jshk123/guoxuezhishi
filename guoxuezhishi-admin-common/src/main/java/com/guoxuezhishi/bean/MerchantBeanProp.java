@@ -24,6 +24,33 @@ public class MerchantBeanProp {
     private String rootCertPath;
     private String charset;
     private String checkFileDir;
+    private String merchantIdYun;
+    private String merchantCertPathYun;
+    private String merchantCertPassYun;
+
+    public String getMerchantIdYun() {
+        return merchantIdYun;
+    }
+
+    public void setMerchantIdYun(String merchantIdYun) {
+        this.merchantIdYun = merchantIdYun;
+    }
+
+    public String getMerchantCertPathYun() {
+        return merchantCertPathYun;
+    }
+
+    public void setMerchantCertPathYun(String merchantCertPathYun) {
+        this.merchantCertPathYun = merchantCertPathYun;
+    }
+
+    public String getMerchantCertPassYun() {
+        return merchantCertPassYun;
+    }
+
+    public void setMerchantCertPassYun(String merchantCertPassYun) {
+        this.merchantCertPassYun = merchantCertPassYun;
+    }
 
     public String getRequestUrl() {
         return requestUrl;

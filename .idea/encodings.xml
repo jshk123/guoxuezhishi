@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/lib/jboss-logging-spi.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/lib/jbosssx.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/cert/999110106020006.p12" charset="GBK" />
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-mng" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guoxuezhishi-admin-service" charset="UTF-8" />

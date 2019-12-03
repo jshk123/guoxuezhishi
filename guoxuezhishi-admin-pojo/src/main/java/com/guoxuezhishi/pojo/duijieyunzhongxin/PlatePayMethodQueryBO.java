@@ -1,4 +1,4 @@
-package com.guoxuezhishi.pojo.yunzhongxin;
+package com.guoxuezhishi.pojo.duijieyunzhongxin;
 
 import com.guoxuezhishi.pojo.BaseBO;
 import io.swagger.annotations.ApiModel;
@@ -8,19 +8,17 @@ import io.swagger.annotations.ApiModelProperty;
  * @author: jiang
  * @date: 2019/8/27
  */
-@ApiModel(value = "云中心车牌发送验证码", description = "云中心车牌发送验证码")
-public class PlatePaySendSmsCodeBO extends BaseBO {
+@ApiModel(value = "车牌付功能是否可用",description = "车牌付功能是否可用")
+public class PlatePayMethodQueryBO extends BaseBO {
 
-    @ApiModelProperty(value = "", name = "", example = "PlatePaySendSmsCode", required = true)
+    @ApiModelProperty(value = "", name = "", example = "PlatePayMethodQuery", required = true)
     private String service;
     @ApiModelProperty(value = "", name = "", example = "京NHA100", required = true)
     private String plateNo;
     @ApiModelProperty(value = "", name = "", example = "0", required = true)
-    private String vehplateColor;
+    private String plateColorCode;
     @ApiModelProperty(value = "", name = "", example = "0", required = true)
     private String vehTypeCode;
-    @ApiModelProperty(value = "", name = "", example = "13810035335", required = true)
-    private String mblNo;
 
     public String getService() {
         return service;
@@ -38,12 +36,12 @@ public class PlatePaySendSmsCodeBO extends BaseBO {
         this.plateNo = plateNo;
     }
 
-    public String getVehplateColor() {
-        return vehplateColor;
+    public String getPlateColorCode() {
+        return plateColorCode;
     }
 
-    public void setVehplateColor(String vehplateColor) {
-        this.vehplateColor = vehplateColor;
+    public void setPlateColorCode(String plateColorCode) {
+        this.plateColorCode = plateColorCode;
     }
 
     public String getVehTypeCode() {
@@ -52,13 +50,5 @@ public class PlatePaySendSmsCodeBO extends BaseBO {
 
     public void setVehTypeCode(String vehTypeCode) {
         this.vehTypeCode = vehTypeCode;
-    }
-
-    public String getMblNo() {
-        return mblNo;
-    }
-
-    public void setMblNo(String mblNo) {
-        this.mblNo = mblNo;
     }
 }

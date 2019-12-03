@@ -1,7 +1,7 @@
-package com.guoxuezhishi.controller.yunzhongxin;
+package com.guoxuezhishi.controller.duijieyunzhongxin;
 
 import com.guoxuezhishi.bean.MerchantBeanProp;
-import com.guoxuezhishi.pojo.yunzhongxin.PlatePayMethodQueryBO;
+import com.guoxuezhishi.pojo.duijieyunzhongxin.PlatePayMethodQueryBO;
 import com.guoxuezhishi.utils.CPFUtil;
 import com.guoxuezhishi.utils.GXJSONResult;
 import io.swagger.annotations.Api;

@@ -1,4 +1,4 @@
-package com.guoxuezhishi.pojo.yunzhongxin;
+package com.guoxuezhishi.pojo.duijieyunzhongxin;
 
 import com.guoxuezhishi.pojo.BaseBO;
 import io.swagger.annotations.ApiModel;
