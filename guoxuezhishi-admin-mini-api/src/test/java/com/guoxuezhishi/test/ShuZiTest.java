@@ -33,5 +33,22 @@ public class ShuZiTest {
         System.out.println(a + b);
     }
 
+    /**
+     * 位运算
+     */
+    @Test
+    public void shuzi4() {
+        System.out.println("二进制：" + Integer.toBinaryString(16));
+        System.out.println("16>>2运算的结果是 :" + ((16) >> 2));
+        //打印的结果是:   16>>2运算的结果是 :4
+        System.out.println("-16>>2运算的结果是 :" + ((-16) >> 2));
+        //打印的结果是:   -16>>2运算的结果是 :-4
+        System.out.println("16>>>2运算的结果是 :" + ((16) >>> 2));
+        //打印的结果是:   16>>>2运算的结果是 :4
+        System.out.println("-16>>>2运算的结果是 :" + ((-16) >>> 2));
+        //打印的结果是:   -16>>>2运算的结果是 :1073741820
+        System.out.println("16<<2运算的结果是 :" + ((16) << 2));
+        System.out.println("-16<<2运算的结果是 :" + ((-16) << 2));
+    }
 
 }

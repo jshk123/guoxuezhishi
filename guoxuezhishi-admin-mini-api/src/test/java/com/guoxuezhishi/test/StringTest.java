@@ -19,6 +19,6 @@ public class StringTest {
         Arrays.sort(b);
         a = new String(b);
         System.out.println(a);
-
     }
+
 }
