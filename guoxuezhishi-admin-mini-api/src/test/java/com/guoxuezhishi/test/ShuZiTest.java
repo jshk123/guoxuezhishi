@@ -2,6 +2,8 @@ package com.guoxuezhishi.test;
 
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
 /**
  * @author: jiang
  * @date: 2019/7/31
@@ -49,6 +51,25 @@ public class ShuZiTest {
         //打印的结果是:   -16>>>2运算的结果是 :1073741820
         System.out.println("16<<2运算的结果是 :" + ((16) << 2));
         System.out.println("-16<<2运算的结果是 :" + ((-16) << 2));
+    }
+
+    /**
+     * bigdecimal计算
+     */
+    @Test
+    public void shuzi5() {
+        BigDecimal t1 = new BigDecimal(1.233);
+        BigDecimal t2 = new BigDecimal(1.273);
+        BigDecimal t3 = new BigDecimal(1.233);
+        int i1 = t1.compareTo(t2);
+        int i2 = t1.compareTo(t3);
+        System.out.println(i1);
+        System.out.println(i2);
+        System.out.println(t1.equals(t2));
+
+//        System.out.println(t1.add(t2));
+//        System.out.println(t1.add(t2).setScale(2, BigDecimal.ROUND_HALF_UP));
+//        System.out.println(t3);
     }
 
 }
