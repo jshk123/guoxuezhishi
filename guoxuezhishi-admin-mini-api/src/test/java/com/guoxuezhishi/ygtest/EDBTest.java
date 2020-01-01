@@ -2,6 +2,8 @@ package com.guoxuezhishi.ygtest;
 
 import com.yuangou.ecp.bp.comp.expr.YGExpUtil;
 import com.yuangou.ecp.bp.core.common.exception.YGException;
+import com.yuangou.ecp.bp.core.common.message.YGBizMessage;
+import com.yuangou.ecp.bp.core.common.message.YGBizMessageContext;
 import com.yuangou.ecp.bp.core.common.message.YGEDB;
 import com.yuangou.ecp.bp.core.common.message.YGEDBFactory;
 import org.junit.Test;
@@ -58,4 +60,10 @@ public class EDBTest {
         System.out.println(YGExpUtil.get_date_time().substring(8, 14));
     }
 
+    @Test
+    public void NumberTest(YGBizMessageContext ctx) throws YGException {
+        YGBizMessage msg = ctx.getCurrentMsg();
+        YGEDB root = msg.getEDBBody();
+        System.out.println(root.getData("gda.jrn_no"));
+    }
 }
