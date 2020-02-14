@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d0ed21-ec1f-4ef9-a4d3-afe239bd8cd4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/SscTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guoxuezhishi-admin-service/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/guoxuezhishi_admin_mini_api_Web2_exploded/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/guoxuezhishi_admin_mini_api_Web2_exploded/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/guoxuezhishi_admin_mini_api_Web2_exploded/WEB-INF/classes/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/guoxuezhishi_admin_mini_api_Web2_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/guoxuezhishi_admin_mini_api_Web2_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pentmenu/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pentmenu/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pentmenu/pentmenu" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/guoxuezhishi-admin-common/target/" />
@@ -96,29 +86,15 @@
     <fileColor scope="All" color="cce8cf" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="SscTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/SscTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1725" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1575" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="412">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,18 +110,13 @@
         <option value="Kotlin File" />
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SLF4J</find>
-      <find>slf4j</find>
-      <find>tess4j</find>
-      <find>hibernate</find>
-      <find>rootCertPath</find>
       <find>CPFUtil</find>
       <find>merchantCertPath</find>
       <find>id</find>
@@ -171,6 +142,11 @@
       <find>api</find>
       <find>httpClient</find>
       <find>get</find>
+      <find>ffmpegEXE</find>
+      <find>convertor</find>
+      <find>httpclient</find>
+      <find>sscr</find>
+      <find>http</find>
     </findStrings>
     <replaceStrings>
       <replace>GX</replace>
@@ -209,8 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/test1.js" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs/test2.js" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs/student.js" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs/student.json" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs/db.json" />
@@ -255,11 +229,13 @@
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/duijieyunzhongxin/PlatePayInfoQueryController.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/duijieyunzhongxin/PlatePayMethodQueryController.java" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/ygtest/EDBTest.java" />
-        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/hello.html" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/FFMpegTest.java" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml" />
+        <option value="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/SscTest.java" />
       </list>
     </option>
   </component>
@@ -340,9 +316,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="860" />
+    <option name="y" value="41" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -351,7 +328,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,17 +338,76 @@
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
-              <item name="guoxuezhishi-admin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
               <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="h5chepaifu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guoxuezhishi" type="462c0819:PsiDirectoryNode" />
+              <item name="guoxuezhishi-admin-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="guoxuezhishi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-httpclient:commons-httpclient:3.1" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -399,7 +434,7 @@
     <property name="project.structure.side.proportion" value="0.21968503" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -436,34 +471,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="EDBTest.NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SscTest.ssc1">
+    <configuration name="FFMpegTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.FFMpegTest" />
       <module name="guoxuezhishi-admin-mini-api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guoxuezhishi.ygtest.*" />
+          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.guoxuezhishi.ygtest" />
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.ygtest.EDBTest" />
-      <option name="METHOD_NAME" value="NumberTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
-    <configuration name="ShuZiTest.shuzi5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SscTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guoxuezhishi-admin-mini-api" />
       <extension name="coverage">
         <pattern>
@@ -474,8 +497,54 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.ShuZiTest" />
-      <option name="METHOD_NAME" value="shuzi5" />
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.SscTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SscTest.bianma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guoxuezhishi-admin-mini-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.SscTest" />
+      <option name="METHOD_NAME" value="bianma" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SscTest.ssc1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guoxuezhishi-admin-mini-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoxuezhishi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.guoxuezhishi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.guoxuezhishi.test.SscTest" />
+      <option name="METHOD_NAME" value="ssc1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -502,8 +571,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="conndb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="conndb.js" working-dir="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs" />
-    <configuration name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test2.js" working-dir="$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/resources/nodejs" />
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="guoxuezhishi-admin-mini-api" />
       <extension name="coverage">
@@ -668,19 +735,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.test2.js" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Node.js.conndb.js" />
-      <item itemvalue="JUnit.ShuZiTest.shuzi5" />
-      <item itemvalue="JUnit.EDBTest.NumberTest" />
+      <item itemvalue="Application.FFMpegTest" />
+      <item itemvalue="JUnit.SscTest.ssc1" />
+      <item itemvalue="JUnit.SscTest" />
+      <item itemvalue="JUnit.SscTest.bianma" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SscTest.ssc1" />
+        <item itemvalue="JUnit.SscTest" />
+        <item itemvalue="JUnit.SscTest.bianma" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.EDBTest.NumberTest" />
-        <item itemvalue="JUnit.ShuZiTest.shuzi5" />
-        <item itemvalue="Node.js.test2.js" />
-        <item itemvalue="Node.js.conndb.js" />
+        <item itemvalue="Application.FFMpegTest" />
       </list>
     </recent_temporary>
   </component>
@@ -870,6 +937,22 @@
       <workItem from="1578358565171" duration="7000" />
       <workItem from="1578362254562" duration="603000" />
       <workItem from="1578386404021" duration="489000" />
+      <workItem from="1578985103526" duration="942000" />
+      <workItem from="1579165720146" duration="2250000" />
+      <workItem from="1579230011651" duration="601000" />
+      <workItem from="1579396624249" duration="1801000" />
+      <workItem from="1580797976163" duration="2381000" />
+      <workItem from="1580868447442" duration="5693000" />
+      <workItem from="1580874651818" duration="22347000" />
+      <workItem from="1581038029196" duration="8721000" />
+      <workItem from="1581080421385" duration="1772000" />
+      <workItem from="1581098369747" duration="6122000" />
+      <workItem from="1581228618301" duration="3084000" />
+      <workItem from="1581236557629" duration="1117000" />
+      <workItem from="1581385607354" duration="2766000" />
+      <workItem from="1581407398400" duration="3625000" />
+      <workItem from="1581411373817" duration="256000" />
+      <workItem from="1581574211304" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1565675298186</created>
@@ -1032,43 +1115,50 @@
       <option name="project" value="LOCAL" />
       <updated>1577884549987</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="更新信息">
+      <created>1578985261386</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578985261387</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 09h 58m 07s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest_ssc1 - 2020.02.11 at 10h 42m 52s.xml">
+      <configuration name="SscTest.ssc1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 15h 59m 09s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest_ssc1 - 2020.02.11 at 15h 50m 40s.xml">
+      <configuration name="SscTest.ssc1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 15h 59m 57s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest_ssc1 - 2020.02.11 at 15h 56m 14s.xml">
+      <configuration name="SscTest.ssc1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 01m 06s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 15h 57m 49s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 01m 28s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 16h 16m 07s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 01m 53s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 16h 24m 34s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 02m 08s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 16h 28m 27s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 02m 34s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 16h 38m 25s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShuZiTest_shuzi5 - 2019.12.18 at 16h 02m 45s.xml">
-      <configuration name="ShuZiTest.shuzi5" configurationId="JUnit" />
+    <history-entry file="SscTest - 2020.02.11 at 16h 39m 49s.xml">
+      <configuration name="SscTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EDBTest_NumberTest - 2019.12.30 at 15h 01m 33s.xml">
-      <configuration name="EDBTest.NumberTest" configurationId="JUnit" />
+    <history-entry file="SscTest_ssc1 - 2020.02.11 at 16h 45m 28s.xml">
+      <configuration name="SscTest.ssc1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="738777000" />
+    <option name="totallyTimeSpent" value="802321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1095,17 +1185,17 @@
       <window_info anchor="right" id="News Feed" order="8" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24785408" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.47052023" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6687211" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32850242" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3279483" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49963585" weight="0.4915254" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49963585" weight="0.28967643" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="16" weight="0.81123245" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40842786" visible="true" weight="0.40958166" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40842786" weight="0.40688258" />
       <window_info anchor="bottom" id="Reviews" order="11" />
       <window_info id="Web" order="3" sideWeight="0.47876447" side_tool="true" weight="0.24180627" />
       <window_info anchor="right" id="SciView" order="12" />
@@ -1186,7 +1276,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1194,48 +1284,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5GetContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mapper/target/classes/mapper/ZhongyaoxueMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-service/src/main/java/com/guoxuezhishi/service/impl/BgmServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mapper/src/main/java/com/guoxuezhishi/mapper/BgmMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mapper/src/main/java/com/guoxuezhishi/mapper/ZhongyaoxueMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-pojo/src/main/java/com/guoxuezhishi/pojo/wechat/Zhongyaoxue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1502,37 +1550,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/wechat/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1332">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/MergeVideoMp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/src/main/java/com/guoxuezhishi/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="-275">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/main/java/com/guoxuezhishi/controller/h5chepaifu/H5GetContentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="475">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/FFMpegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1725" />
+        <state relative-caret-position="225">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575" />
+        <state relative-caret-position="175">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar!/org/apache/http/NameValuePair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="202">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/NameValuePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/methods/PostMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guoxuezhishi-admin-mini-api/src/test/java/com/guoxuezhishi/test/SscTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1596,7 +1690,6 @@
             <option name="proportions">
               <list>
                 <option value="0.21968503" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
