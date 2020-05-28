@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="guoxuezhishi-admin-common" />
-        <module name="guoxuezhishi-admin-mapper" />
-        <module name="guoxuezhishi-admin-mini-api" />
-        <module name="guoxuezhishi-admin-mng" />
-        <module name="guoxuezhishi-admin-pojo" />
         <module name="guoxuezhishi-admin-service" />
+        <module name="guoxuezhishi-admin-mng" />
+        <module name="guoxuezhishi-admin-mapper" />
+        <module name="guoxuezhishi-admin-pojo" />
+        <module name="guoxuezhishi-admin-common" />
+        <module name="guoxuezhishi-admin-mini-api" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guoxuezhishi-admin-common" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+      <module name="guoxuezhishi-admin-mapper" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+      <module name="guoxuezhishi-admin-mini-api" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+      <module name="guoxuezhishi-admin-mng" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+      <module name="guoxuezhishi-admin-pojo" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+      <module name="guoxuezhishi-admin-service" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_172/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_172/jre\lib\jce.jar&quot;" />
+    </option>
   </component>
 </project>

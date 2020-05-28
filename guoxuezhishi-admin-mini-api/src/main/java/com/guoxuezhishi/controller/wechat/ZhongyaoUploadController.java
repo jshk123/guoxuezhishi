@@ -43,13 +43,13 @@ public class ZhongyaoUploadController extends BaseController {
         //上传文件
         FileOutputStream fileOutputStream = null;
         InputStream inputStream = null;
-        String fileSpase = "D:/guoxuezhishi";
+        String fileSpace = "D:/guoxuezhishi";
         String uploadPathDB = "/" + xueke;
         String fileName = file.getOriginalFilename();
         try {
             if (file != null && file.getSize() > 0) {
                 if (StringUtils.isNotBlank(fileName)) {
-                    String finalXmlPath = fileSpase + uploadPathDB + "/" + fileName;
+                    String finalXmlPath = fileSpace + uploadPathDB + "/" + fileName;
                     File outfile = new File(finalXmlPath);
                     if (outfile.getParentFile() == null || !outfile.getParentFile().isDirectory()) {
                         outfile.getParentFile().mkdirs();

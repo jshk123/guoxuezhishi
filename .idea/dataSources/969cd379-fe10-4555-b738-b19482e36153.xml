@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
@@ -18,7 +18,6 @@
       <Collation>utf8_bin</Collation>
     </schema>
     <schema id="6" parent="1" name="video-dev">
-      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <collation id="7" parent="1" name="armscii8_bin">
