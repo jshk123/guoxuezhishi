@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Created-By: IntelliJ IDEA
-Built-By: jiang
-Build-Jdk: 1.8.0_172
-Implementation-Version: 1.0-SNAPSHOT
-Implementation-Vendor-Id: com.guoxuezhishi
-Main-Class: ${start-class}
-
